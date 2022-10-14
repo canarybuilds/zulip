@@ -15,6 +15,6 @@ You can disable these emails if they don't make sense for your organization.
 {settings_tab|organization-settings}
 
 1. Under **Automated messages and emails**, toggle
-   **Send emails introducing Zulip to new users**.
+   **Send emails introducing Feniks Global to new users**.
 
 {end_tabs}

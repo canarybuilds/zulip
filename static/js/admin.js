@@ -16,11 +16,11 @@ import * as settings_panel_menu from "./settings_panel_menu";
 import * as settings_sections from "./settings_sections";
 import * as settings_toggle from "./settings_toggle";
 
-const admin_settings_label = {
+const admin_settings_label = //{
     // Organization profile
-    realm_want_advertise_in_communities_directory: $t({
-        defaultMessage: "Advertise organization in the Zulip communities directory",
-    }),
+    //realm_want_advertise_in_communities_directory: $t({
+    //    defaultMessage: "Advertise organization in the Zulip communities directory",
+    //}),
     // Organization settings
     realm_allow_edit_history: $t({defaultMessage: "Enable message edit history"}),
     realm_mandatory_topics: $t({defaultMessage: "Require topics in stream messages"}),
@@ -28,7 +28,7 @@ const admin_settings_label = {
     realm_signup_notifications_stream: $t({defaultMessage: "New user announcements"}),
     realm_inline_image_preview: $t({defaultMessage: "Show previews of uploaded and linked images"}),
     realm_inline_url_embed_preview: $t({defaultMessage: "Show previews of linked websites"}),
-    realm_send_welcome_emails: $t({defaultMessage: "Send emails introducing Zulip to new users"}),
+    realm_send_welcome_emails: $t({defaultMessage: "Send emails introducing Feniks Global to new users"}),
     realm_message_content_allowed_in_email_notifications: $t({
         defaultMessage: "Allow message content in message notification emails",
     }),
