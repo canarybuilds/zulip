@@ -365,6 +365,7 @@ input.text-error {
 
     .footer {
         flex-shrink: 0;
+        visibility: hidden;
     }
 
     .if-zulip-electron {
