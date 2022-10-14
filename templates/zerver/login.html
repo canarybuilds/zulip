@@ -2,7 +2,7 @@
 {% set entrypoint = "signup" %}
 
 {% block title %}
-<title>{{ _("Log in") }} | Zulip</title>
+<title>{{ _("Log in") }} | Feniks Global</title>
 {% endblock %}
 
 {# Login page. #}
@@ -14,9 +14,9 @@ page can be easily identified in it's respective JavaScript file. -->
 <div data-page-id="login-page"></div>
 <div class="app login-page split-view new-style flex full-page">
     <div class="inline-block">
-        <div class="lead">
-            <h1 class="get-started">{{ _("Log in to Zulip") }}</h1>
-        </div>
+       <!-- <div class="lead">
+            <h1 class="get-started">{{ _("Log in to Zulip") }}</h1> 
+        </div> -->
 
         <div class="app-main login-page-container white-box inline-block">
             {% if realm_name %}
@@ -25,7 +25,7 @@ page can be easily identified in it's respective JavaScript file. -->
                     <img class="avatar" src="{{ realm_icon }}" alt="" />
                     <div class="info-box">
                         <div class="organization-name">{{ realm_name }}</div>
-                        <div class="organization-path">{{ realm_uri }}</div>
+                        <!--<div class="organization-path">{{ realm_uri }}</div> -->
                     </div>
                 </div>
                 <div class="description">
@@ -59,7 +59,7 @@ page can be easily identified in it's respective JavaScript file. -->
 
                         <p>
                             See the <a href="https://zulip.readthedocs.io/en/latest/production/install.html#step-3-configure-zulip">
-                            Zulip authentication documentation</a> to learn how to configure authentication backends.
+                            Feniks Global authentication documentation</a> to learn how to configure authentication backends.
                         </p>
                     </div>
                 {% else %}
@@ -150,7 +150,7 @@ page can be easily identified in it's respective JavaScript file. -->
                         <a class="forgot-password" href="/accounts/password/reset/">{{ _('Forgot your password?') }}</a>
                         {% endif %}
                         {% if not register_link_disabled %}
-                        <a class="register-link float-right" href="/register/">{{ _('Sign up') }}</a>
+                        <!-- <a class="register-link float-right" href="/register/">{{ _('Sign up') }}</a> -->
                         {% endif %}
                     </div>
                 {% endif %}
@@ -159,7 +159,7 @@ page can be easily identified in it's respective JavaScript file. -->
 
         {% if realm_invite_required %}
         <div class="contact-admin">
-            <p class="invite-hint">{{ _("Don't have an account yet? You need to be invited to join this organization.") }}</p>
+            <p class="invite-hint">{{ _("You need to be invited to join this organization.") }}</p>
         </div>
         {% endif %}
     </div>
