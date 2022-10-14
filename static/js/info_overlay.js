@@ -33,7 +33,7 @@ const markdown_help_rows = [
         markdown: "~~strikethrough~~",
     },
     {
-        markdown: "[Zulip website](https://zulip.org)",
+        markdown: "[Canary Builds website](https://canarybuilds.au)",
         usage_html: "(or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>)",
     },
     {
@@ -119,19 +119,19 @@ Coffee`,
     {
         markdown: `\
 \`\`\`
-def zulip():
-    print "Zulip"
+def canary builds():
+    print "Canary Builds"
 \`\`\``,
     },
     {
         markdown: `\
 \`\`\`python
-def zulip():
-    print "Zulip"
+def canary builds():
+    print "Canary Builds"
 \`\`\``,
         output_html: `\
-<div class="codehilite"><pre><span class="k">def</span> <span class="nf">zulip</span><span class="p">():</span>
-    <span class="k">print</span> <span class="s">"Zulip"</span></pre></div>`,
+<div class="codehilite"><pre><span class="k">def</span> <span class="nf">canary builds</span><span class="p">():</span>
+    <span class="k">print</span> <span class="s">"Canary Builds"</span></pre></div>`,
     },
     {
         note_html: $t_html(
