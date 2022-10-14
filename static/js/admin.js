@@ -16,11 +16,11 @@ import * as settings_panel_menu from "./settings_panel_menu";
 import * as settings_sections from "./settings_sections";
 import * as settings_toggle from "./settings_toggle";
 
-const admin_settings_label = //{
+const admin_settings_label = {
     // Organization profile
-    //realm_want_advertise_in_communities_directory: $t({
-    //    defaultMessage: "Advertise organization in the Zulip communities directory",
-    //}),
+    realm_want_advertise_in_communities_directory: $t({
+        defaultMessage: "Advertise organization in the Zulip communities directory",
+    }),
     // Organization settings
     realm_allow_edit_history: $t({defaultMessage: "Enable message edit history"}),
     realm_mandatory_topics: $t({defaultMessage: "Require topics in stream messages"}),
