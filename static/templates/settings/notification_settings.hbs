@@ -4,18 +4,18 @@
             <h3>{{t "Notification triggers" }}</h3>
             {{> settings_save_discard_widget section_name="general-notifiy-settings" show_only_indicator=(not for_realm_settings) }}
         </div>
-        <p>{{t "Configure how Zulip notifies you about new messages." }}</p>
+        <p>{{t "Configure how Feniks notifies you about new messages." }}</p>
         <table class="notification-table table table-condensed table-bordered wrapped-table">
             <thead>
                 <tr>
                     <th rowspan="2" width="30%"></th>
                     <th colspan="2" width="28%">{{t "Desktop"}}</th>
-                    <th rowspan="2" width="14%" class="{{#if show_push_notifications_tooltip.push_notifications}}control-label-disabled{{/if}}">
+                    <!--<th rowspan="2" width="14%" class="{{#if show_push_notifications_tooltip.push_notifications}}control-label-disabled{{/if}}">
                         {{t "Mobile"}}
                         {{#if (not realm_push_notifications_enabled) }}
                         <i class="fa fa-question-circle settings-info-icon tippy-zulip-tooltip" data-tippy-content="{{t 'Mobile push notifications are not configured on this server.' }}"></i>
                         {{/if}}
-                    </th>
+                    </th> -->
                     <th rowspan="2" width="14%">{{t "Email"}}</th>
                     <th rowspan="2" width="14%">@all
                         <i class="fa fa-question-circle settings-info-icon tippy-zulip-tooltip" data-tippy-content="{{t 'Whether wildcard mentions like @all are treated as mentions for the purpose of notifications.' }}"></i>
