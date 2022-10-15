@@ -1,5 +1,5 @@
 {% if create_realm %}
-{{ _("Create your Zulip organization") }}
+{{ _("Create your Feniks Global organization") }}
 {% else %}
-{{ _("Activate your Zulip account") }}
+{{ _("Activate your Feniks Global account") }}
 {% endif %}
