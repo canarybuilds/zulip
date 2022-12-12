@@ -55,7 +55,7 @@ this configure or disable GIPHY integration entirely:
 ## Privacy
 
 GIPHY is a third-party service owned by Facebook, and any text you
-enter into Zulip's GIPHY search box will be sent by your browser to
+enter into Feniks Chat's GIPHY search box will be sent by your browser to
 GIPHY's servers via the GIPHY API. Because this request is done
 directly by your browser, GIPHY will be able to see your IP address,
 and may use that data to track you, similar to if you visited the

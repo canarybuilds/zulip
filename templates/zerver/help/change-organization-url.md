@@ -21,7 +21,7 @@ for paid plans.
 
 ## Self-hosting
 
-If you're self-hosting, you can change the root domain of your Zulip
+If you're self-hosting, you can change the root domain of your Feniks Chat
 server by changing the `EXTERNAL_HOST` [setting][zulip-settings].  If
 you're [hosting multiple organizations][zulip-multiple-organizations]
 and want to change the subdomain for one of them, you can do this

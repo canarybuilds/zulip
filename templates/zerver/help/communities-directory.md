@@ -21,10 +21,10 @@ directory does not guarantee that it will be listed.
 
 Feniks Chat plans to develop support for self-hosted Feniks Chat communities that
 have registered their servers with the [Feniks Chat mobile push
-notification service][push-notifications] to sign-up for the Zulip
+notification service][push-notifications] to sign-up for the Feniks Chat
 communities directory.
 
-Until that feature is developed, if you administer a self-hosted Zulip
+Until that feature is developed, if you administer a self-hosted Feniks Chat
 community and would like to be listed in the directory, please contact
 [Feniks Chat support](mailto:support@zulip.com). Changing the setting in your
 Feniks Chat organization will not send any information to the Feniks Chat project
