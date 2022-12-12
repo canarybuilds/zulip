@@ -7,7 +7,7 @@ image or website content is shown. You can choose to disable previews of
 images and/or website links.
 
 Feniks Chat proxies all external images in messages through the server, to
-prevent images from being used to track Zulip users.
+prevent images from being used to track Feniks Chat users.
 
 ### Block image and website previews
 

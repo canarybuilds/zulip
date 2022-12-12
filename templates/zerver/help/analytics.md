@@ -1,6 +1,6 @@
 # View organization statistics
 
-Zulip provides detailed analytics to help you see how you and your team are
+Feniks Chat provides detailed analytics to help you see how you and your team are
 using Zulip.
 
 ### View organization statistics
