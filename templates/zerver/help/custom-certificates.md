@@ -90,7 +90,7 @@ new certificate.
 ### Version 5.3.0 and below
 
 On Feniks Chat Desktop version 5.3.0 and below, we require you to manually
-enter the certificate details before you can connect to your Zulip
+enter the certificate details before you can connect to your Feniks Chat
 server. You'll need to get a certificate file (should end in `.crt` or
 `.pem`) from your server administrator and add it:
 

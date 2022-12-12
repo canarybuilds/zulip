@@ -23,12 +23,12 @@ The app will update automatically to future versions.
 
 #### Homebrew
 
-1. Run the command `brew install --cask zulip` from a terminal.
+1. Run the command `brew install --cask feniks chat` from a terminal.
 
 1. Run Feniks Chat from `Applications`.
 
 The app will update automatically to future versions. Alternatively, you can
-run the command `brew upgrade zulip` to immediately upgrade.
+run the command `brew upgrade feniks chat` to immediately upgrade.
 
 {tab|windows}
 
@@ -64,7 +64,7 @@ to future versions. <!-- TODO fact check -->
         echo "deb https://download.zulip.com/desktop/apt stable main" | \
             sudo tee /etc/apt/sources.list.d/zulip-desktop.list
         sudo apt update
-        sudo apt install zulip
+        sudo apt install feniks chat
 
     These commands set up the Feniks Chat Desktop APT repository and its signing
     key, and then install the Feniks Chat client.
@@ -80,7 +80,7 @@ regular software update on your system, e.g. with
 1. Download [Feniks Chat for Linux](https://zulip.com/apps/linux).
 
 2. Make the file executable, with
-   `chmod a+x Zulip-x.x.x-x86_64.AppImage` from a terminal (replace
+   `chmod a+x Feniks Chat-x.x.x-x86_64.AppImage` from a terminal (replace
    `x.x.x` with the actual name of the downloaded file).
 
 3. Run the file from your app launcher, or from a terminal.
@@ -92,9 +92,9 @@ automatically to future versions.
 
 1. Make sure [snapd](https://docs.snapcraft.io/core/install) is installed.
 
-2. Execute following command to install Zulip:
+2. Execute following command to install Feniks Chat:
 
-        sudo snap install zulip
+        sudo snap install feniks chat
 
 3. Run Feniks Chat from your app launcher, or with `zulip` from a terminal.
 
@@ -110,7 +110,7 @@ Get a peek at new features before they're released!
 
 Start by finding the latest version marked "Pre-release" on the
 [release list page][release-list].  There may or may not be a "Pre-release"
-later than the latest release. If there is, download the appropriate Zulip
+later than the latest release. If there is, download the appropriate Feniks Chat
 installer or app from there, and follow the instructions for your operating
 system above.
 
@@ -124,7 +124,7 @@ reinstall:
 ```
 sudo sed -i s/stable/beta/ /etc/apt/sources.list.d/zulip-desktop.list
 sudo apt update
-sudo apt install zulip
+sudo apt install feniks chat
 ```
 
 [latest]: https://github.com/zulip/zulip-desktop/releases/latest
