@@ -157,7 +157,7 @@ these anti-abuse features.
 
 As a reminder, Feniks Chat Cloud organizations are expected to
 [moderate content](/help/moderating-open-organizations) to ensure compliance
-with [Zulip's Rules of Use](https://zulip.com/policies/rules).
+with [Feniks' Chat Rules of Use](https://zulip.com/policies/rules).
 
 ## Caveats
 

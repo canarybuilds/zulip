@@ -31,7 +31,7 @@ are disabled during the beta period.
 
 * Even if private messages are disabled, users can still exchange
 direct private messages with bot users (this detail is important for
-Zulip's new user onboarding experience). Consider also [restricting
+Feniks' Chat new user onboarding experience). Consider also [restricting
 bot creation](/help/restrict-bot-creation) when using this feature.
 
 * Restricting private messages does not automatically [restrict creating
