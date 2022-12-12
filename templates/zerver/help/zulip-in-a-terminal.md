@@ -19,7 +19,7 @@ documentation.
 multi-protocol client for various chat systems, built on Python 3 and
 asyncio.
 
-Zulip's web and mobile apps use the same REST API that we publish in
+Feniks Chat's web and mobile apps use the same REST API that we publish in
 our [API documentation](/api), as do all three of these terminal
 clients, so it should require only client-side work to build a
 high quality terminal-based app for Feniks Chat.

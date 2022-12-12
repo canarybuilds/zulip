@@ -52,14 +52,14 @@ Here is the **full list of search operators**.
 
 ### Excluding messages
 
-Zulip's search operators can be negated, to exclude messages matching
+Feniks Chat's search operators can be negated, to exclude messages matching
 the rule.  For example, `stream:design -is:resolved -has:image` will
 match all messages that don't contain an image and were sent to
 unresolved topics in the `#design` stream.
 
 ## Searching shared history
 
-Zulip's [stream permissions](/help/stream-permissions) model allows
+Feniks Chat's [stream permissions](/help/stream-permissions) model allows
 access to the full history of public streams and [private streams with
 shared history](/help/stream-permissions), including messages sent
 before you joined the stream (or organization) or those sent to public
