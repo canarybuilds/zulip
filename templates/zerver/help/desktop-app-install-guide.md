@@ -1,8 +1,8 @@
-# Installing the Feniks Chat desktop app
+# Installing the Zulip desktop app
 
-Feniks Chat on your macOS, Windows, or Linux desktop is even better than
-Feniks Chat on the web, with a cleaner look, tray/dock integration, native
-notifications, and support for multiple Feniks Chat accounts.
+Zulip on your macOS, Windows, or Linux desktop is even better than
+Zulip on the web, with a cleaner look, tray/dock integration, native
+notifications, and support for multiple Zulip accounts.
 
 To install the latest stable release (recommended for most users),
 find your operating system below.  If you're interested in an early
@@ -15,7 +15,7 @@ look at the newest features, consider the [beta releases](#install-a-beta-releas
 
 #### Disk image (recommended)
 
-1. Download [Feniks Chat for macOS](https://zulip.com/apps/mac).
+1. Download [Zulip for macOS](https://zulip.com/apps/mac).
 
 1. Open the file, and drag the app into the `Applications` folder.
 
@@ -23,20 +23,20 @@ The app will update automatically to future versions.
 
 #### Homebrew
 
-1. Run the command `brew install --cask feniks chat` from a terminal.
+1. Run the command `brew install --cask Zulip` from a terminal.
 
-1. Run Feniks Chat from `Applications`.
+1. Run Zulip from `Applications`.
 
 The app will update automatically to future versions. Alternatively, you can
-run the command `brew upgrade feniks chat` to immediately upgrade.
+run the command `brew upgrade Zulip` to immediately upgrade.
 
 {tab|windows}
 
 #### Web installer (recommended)
 
-1. Download and run [Feniks Chat for Windows](https://zulip.com/apps/windows).
+1. Download and run [Zulip for Windows](https://zulip.com/apps/windows).
 
-1. Run Feniks Chat from the Start menu.
+1. RunFeniks chat from the Start menu.
 
 The app will update automatically to future versions.
 
@@ -48,7 +48,7 @@ The app will update automatically to future versions.
 2. Copy the installer file to the machine you want to install the app
    on, and run it there.
 
-3. Run Feniks Chat from the Start menu.
+3. RunFeniks chat from the Start menu.
 
 The app will NOT update automatically. You can repeat these steps to upgrade
 to future versions. <!-- TODO fact check -->
@@ -64,10 +64,10 @@ to future versions. <!-- TODO fact check -->
         echo "deb https://download.zulip.com/desktop/apt stable main" | \
             sudo tee /etc/apt/sources.list.d/zulip-desktop.list
         sudo apt update
-        sudo apt install feniks chat
+        sudo apt install Zulip
 
-    These commands set up the Feniks Chat Desktop APT repository and its signing
-    key, and then install the Feniks Chat client.
+    These commands set up the Feniks chat Desktop APT repository and its signing
+    key, and then install the Feniks chat client.
 
 1. Run Feniks Chat from your app launcher, or with `zulip` from a terminal.
 
@@ -80,7 +80,7 @@ regular software update on your system, e.g. with
 1. Download [Feniks Chat for Linux](https://zulip.com/apps/linux).
 
 2. Make the file executable, with
-   `chmod a+x Feniks Chat-x.x.x-x86_64.AppImage` from a terminal (replace
+   `chmod a+x Zulip-x.x.x-x86_64.AppImage` from a terminal (replace
    `x.x.x` with the actual name of the downloaded file).
 
 3. Run the file from your app launcher, or from a terminal.
@@ -124,7 +124,7 @@ reinstall:
 ```
 sudo sed -i s/stable/beta/ /etc/apt/sources.list.d/zulip-desktop.list
 sudo apt update
-sudo apt install feniks chat
+sudo apt install  Zulip
 ```
 
 [latest]: https://github.com/zulip/zulip-desktop/releases/latest

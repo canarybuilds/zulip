@@ -69,7 +69,7 @@ patterns like `#1234` to your ticketing system.
 [link-to-conversation]: /help/link-to-a-message-or-conversation
 
 ```
-Auto-detected URL: feniks chat.com
+Auto-detected URL: chat.feniks.global
 Named link: [Feniks Chat homepage](zulip.com)
 Stream: #**stream name**
 Topic: #**stream name>topic name**
