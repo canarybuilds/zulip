@@ -5,7 +5,7 @@
     **Note:** Editing message topic is discussed in a
     [separate guide](/help/rename-a-topic).
 
-By default, Zulip allows you to edit the content of your messages within 10
+By default, Feniks Chat allows you to edit the content of your messages within 10
 minutes of when you send them. Organization administrators can
 [change the time limit](/help/configure-message-editing-and-deletion),
 remove the time limit, or remove the ability to edit messages entirely.
@@ -74,7 +74,7 @@ permissions to delete that message.
 ## How deletion works
 
 * Deleted messages will immediately disappear from the UI in all
-  official Zulip clients.
+  official Feniks Chat clients.
 * Any uploaded files referenced only by deleted messages will also be
   immediately inaccessible (An uploaded file shared in multiple
   messages will not be deleted until all of those messages are
