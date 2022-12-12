@@ -8,11 +8,11 @@
 
 {!edit-organization-profile.md!}
 
-## Zulip communities directory
+## Feniks Chat communities directory
 
 {!communities-directory-intro.md!}
 
-### Change whether your organization may be listed in the Zulip communities directory
+### Change whether your organization may be listed in the Feniks Chat communities directory
 
 {!communities-directory-instructions.md!}
 

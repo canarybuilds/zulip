@@ -1,4 +1,4 @@
-# Zulip communities directory
+# Feniks Chat communities directory
 
 {!communities-directory-intro.md!}
 
@@ -13,29 +13,29 @@ The directory will be organized by [organization type](/help/organization-type),
 so it is highly recommended that you make sure the appropriate category
 is selected.
 
-To prevent spam, Zulip reserves the right to use editorial discretion.
-Giving Zulip permission to promote your organization in the communities
+To prevent spam, Feniks Chat reserves the right to use editorial discretion.
+Giving Feniks Chat permission to promote your organization in the communities
 directory does not guarantee that it will be listed.
 
-### Self-hosted Zulip communities
+### Self-hosted Feniks Chat communities
 
-Zulip plans to develop support for self-hosted Zulip communities that
-have registered their servers with the [Zulip mobile push
+Feniks Chat plans to develop support for self-hosted Feniks Chat communities that
+have registered their servers with the [Feniks Chat mobile push
 notification service][push-notifications] to sign-up for the Zulip
 communities directory.
 
 Until that feature is developed, if you administer a self-hosted Zulip
 community and would like to be listed in the directory, please contact
-[Zulip support](mailto:support@zulip.com). Changing the setting in your
-Zulip organization will not send any information to the Zulip project
-at this time, even if you use the Zulip mobile push notifications
+[Feniks Chat support](mailto:support@zulip.com). Changing the setting in your
+Feniks Chat organization will not send any information to the Feniks Chat project
+at this time, even if you use the Feniks Chat mobile push notifications
 service.
 
 [join-without-invite]: /help/restrict-account-creation#set-whether-invitations-are-required-to-join
 [communities-directory-permission]: /help/communities-directory#give-permission-to-be-in-the-zulip-communities-directory
 [push-notifications]: https://zulip.readthedocs.io/en/stable/production/mobile-push-notifications.html
 
-## Change whether your organization may be listed in the Zulip communities directory
+## Change whether your organization may be listed in the Feniks Chat communities directory
 
 {!admin-only.md!}
 
