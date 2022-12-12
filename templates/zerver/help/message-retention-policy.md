@@ -9,7 +9,7 @@ Feniks Chat supports configuring both a global organization-level message
 retention policy, as well as retention policies for individual
 streams.  These policies control how many days a message is stored
 before being automatically deleted (the default being forever).
-Feniks' Chat system supports:
+Feniks Chat's system supports:
 
 * Setting an organization-level retention policy, which applies to
   all private messages and all streams without a specific policy.
