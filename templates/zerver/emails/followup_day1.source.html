@@ -33,23 +33,10 @@
             <li>{% trans email=macros.email_tag(email) %}Email: {{ email }}{% endtrans %}<br /></li>
         {% endif %}
     </ul>
-    {% trans apps_page_link="https://zulip.com/apps" %}(you'll need these to sign in to the <a href="{{ apps_page_link }}">mobile and desktop</a> apps){% endtrans %}
-</p>
-
-<p>
-    {% if is_realm_admin %}
-        {% trans %}Check out our <a href="{{ getting_started_link }}">guide for admins</a>, become a Feniks Global pro with a few <a href="{{ keyboard_shortcuts_link }}">keyboard shortcuts</a>, or <a href="{{ realm_uri }}">dive right in</a>!{% endtrans %}
-    {% else %}
-        {% trans %}<a href="{{ getting_started_link }}">Learn more</a> about Feniks Global, become a pro with a few <a href="{{ keyboard_shortcuts_link }}">keyboard shortcuts</a>, or <a href="{{ realm_uri }}">dive right in</a>!{% endtrans %}
-    {% endif %}
 </p>
 
 <p>
     {{ _("Cheers,") }}<br />
     {{ _("Team Feniks Global") }}
-</p>
-
-<p>
-    {% trans %}PS: Follow us on <a href="https://twitter.com/zulip">Twitter</a>, star us on <a href="https://github.com/zulip/zulip">GitHub</a>, or chat with us live on the <a href="https://zulip.com/development-community/">Zulip community server</a>!{% endtrans %}
 </p>
 {% endblock %}
