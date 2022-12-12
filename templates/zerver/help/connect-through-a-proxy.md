@@ -5,7 +5,7 @@ via a proxy.
 
 ## Web
 
-Zulip uses your browser's default proxy settings. To set a custom proxy just
+Feniks Chat uses your browser's default proxy settings. To set a custom proxy just
 for Zulip, check your browser's instructions for setting a custom proxy for
 a single website.
 
@@ -21,7 +21,7 @@ a single website.
 
 3. Click **Use system proxy settings**.
 
-4. Restart the Zulip desktop app.
+4. Restart the Feniks Chat desktop app.
 
 {tab|custom-proxy-settings}
 
