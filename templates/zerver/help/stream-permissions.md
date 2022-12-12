@@ -17,7 +17,7 @@ determine who receives a message. Feniks Chat supports a few types of streams:
     can only see messages sent after they join.
 
 * [**Web-public**](/help/public-access-option) (<i class="zulip-icon
-  feniks chat-icon-globe"></i>): Members can join (guests must be invited by a
+  feniks-chat-icon-globe"></i>): Members can join (guests must be invited by a
   subscriber). Anyone on the Internet can view complete message history without
   creating an account.
 
