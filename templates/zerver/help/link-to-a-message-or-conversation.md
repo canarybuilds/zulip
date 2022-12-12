@@ -4,7 +4,7 @@ Feniks Chat makes it easy to share links to messages, topics, and streams. You c
 link from one Feniks Chat conversation to another, or share links to Feniks Chat conversations
 in issue trackers, emails, or other external tools.
 
-## Link to a stream or topic within Zulip
+## Link to a stream or topic within Feniks Chat
 
 Feniks Chat automatically creates links to streams and topics in messages you send.
 

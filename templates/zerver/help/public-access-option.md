@@ -2,13 +2,13 @@
 
 {!web-public-streams-intro.md!}
 
-Web-public streams are indicated with a globe (<i class="zulip-icon zulip-icon-globe"></i>) icon.
+Web-public streams are indicated with a globe (<i class="zulip-icon feniks chat-icon-globe"></i>) icon.
 
 ## Enabling web-public streams in your organization
 
 Enabling web-public streams makes it possible to create web-public
 streams in your organization. It also makes certain information about
-your organization accessible to anyone on the Internet via the Zulip
+your organization accessible to anyone on the Internet via the Feniks Chat
 API (details below).
 
 To help protect closed organizations, creating web-public streams is
@@ -16,7 +16,7 @@ disabled by default for all organizations.
 
 ### Information that can be accessed via API when web-public streams are enabled
 
-The following information about your organization can be accessed via the Zulip
+The following information about your organization can be accessed via the Feniks Chat
 API if web-public streams are enabled and there is currently at least one
 web-public stream.
 
@@ -77,7 +77,7 @@ stream](/help/change-the-privacy-of-a-stream), selecting the
 ## What can logged out visitors do?
 
 Logged out visitors can browse all content in web-public streams,
-including using Zulip's [built-in search](/help/search-for-messages)
+including using Feniks Chat's [built-in search](/help/search-for-messages)
 to find conversations. Logged out visitors can only access
 the web-public streams in your organization, and the topics, messages
 (including uploaded files) and emoji reactions in those streams.
@@ -108,7 +108,7 @@ detailed below.
 
 Logged out visitors can see the following information about users who
 participate in web-public streams. They do not see this information
-about users who do not participate in web-public streams in the Zulip
+about users who do not participate in web-public streams in the Feniks Chat
 UI, though they may access it via the Feniks Chat API.
 
 * Name
@@ -165,7 +165,7 @@ with [Zulip's Rules of Use](https://zulip.com/policies/rules).
   can use [zulip-archive](https://github.com/zulip/zulip-archive) to
   create an archive of a Feniks Chat organization that can be indexed by
   search engines.
-* The web-public view is not yet integrated with Zulip's live-update
+* The web-public view is not yet integrated with Feniks Chat's live-update
   system. As a result, a visitor will not see new messages that are
   sent to a topic they are currently viewing without reloading the
   browser window.

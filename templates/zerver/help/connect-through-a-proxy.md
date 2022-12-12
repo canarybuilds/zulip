@@ -1,12 +1,12 @@
 # Connect through a proxy
 
-Some corporate and university networks may require you to connect to Zulip
+Some corporate and university networks may require you to connect to Feniks Chat
 via a proxy.
 
 ## Web
 
 Feniks Chat uses your browser's default proxy settings. To set a custom proxy just
-for Zulip, check your browser's instructions for setting a custom proxy for
+for Feniks Chat, check your browser's instructions for setting a custom proxy for
 a single website.
 
 ## Desktop

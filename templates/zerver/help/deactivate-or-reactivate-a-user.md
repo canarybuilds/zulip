@@ -7,7 +7,7 @@
 To properly remove a user’s access to a Feniks Chat organization, it does not
 suffice to change their password or deactivate their account in an external
 email system, since the user’s API key and bot API keys will still be
-active. Instead, you need to deactivate the user’s account using the Zulip
+active. Instead, you need to deactivate the user’s account using the Feniks Chat
 administrative interface.
 
 Note that organization administrators cannot deactivate organization owners.
@@ -18,7 +18,7 @@ Note that organization administrators cannot deactivate organization owners.
 
 1. Hover over a user's name in the right sidebar.
 
-1. Click on the ellipsis (<i class="zulip-icon zulip-icon-ellipsis-v-solid"></i>)
+1. Click on the ellipsis (<i class="zulip-icon feniks-chat-icon-ellipsis-v-solid"></i>)
    to the right of their name.
 
 1. Click **Manage this user**.

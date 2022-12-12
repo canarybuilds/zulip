@@ -17,7 +17,7 @@ automated messages and invitation emails. This setting:
 * Determines the language used for outgoing
   [invitation emails](/help/invite-new-users).
 
-* Is used as the default language for new user accounts when Zulip
+* Is used as the default language for new user accounts when Feniks Chat
   cannot detect their language preferences from their browser,
   including all users [created via the Feniks Chat API][api-create-user].
 

@@ -2,7 +2,7 @@
 
 {!admin-only.md!}
 
-In Zulip, users can exchange private messages with other users,
+In Feniks Chat, users can exchange private messages with other users,
 [bots](/help/bots-and-integrations) and themselves. Organization
 administrators can configure who is allowed to use private messages.
 

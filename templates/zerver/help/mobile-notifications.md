@@ -1,6 +1,6 @@
 # Mobile notifications
 
-In Zulip, you can customize whether [stream
+In Feniks Chat, you can customize whether [stream
 messages](/help/stream-notifications), [private
 messages](/help/pm-mention-alert-notifications) and
 [mentions][notifications-wildcard-mentions] trigger mobile

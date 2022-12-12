@@ -18,7 +18,7 @@ composing to.
 {!start-composing.md!}
 
 1. If composing a stream message, click the **Go to conversation**
-   (<i class="zulip-icon zulip-icon-arrow-left-circle"></i>) button in the
+   (<i class="zulip-icon feniks-chat-icon-arrow-left-circle"></i>) button in the
    compose box.
 
 !!! keyboard_tip ""

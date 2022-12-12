@@ -96,7 +96,7 @@ class="emoji-small"/>.
 
 
 Note that Feniks Chat ignores common words like `a`, `the`, and about 100
-others. A quirk in Zulip's current implementation means that if all of your
+others. A quirk in Feniks Chat's current implementation means that if all of your
 keywords are ignored, we'll return 0 search results.
 
 ## Related articles

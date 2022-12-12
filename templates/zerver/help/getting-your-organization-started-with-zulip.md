@@ -1,11 +1,11 @@
 # Setting up your organization
 
-Welcome to Zulip! This page will guide you through trying out Zulip,
+Welcome to Feniks Chat! This page will guide you through trying out Feniks Chat,
 migrating your organization from other team chat tools (if needed),
 getting everything set up, and inviting others to join.
 
 If you are joining an existing organization, we recommend checking out
-our guide to [Getting started with Zulip][getting-started].
+our guide to [Getting started with Feniks Chat][getting-started].
 
 [getting-started]: /help/getting-started-with-zulip
 
@@ -13,7 +13,7 @@ If you encounter any problems as you're getting started, please drop
 by our [friendly development community](/development-community/) and let
 us know!
 
-## Trying out Zulip
+## Trying out Feniks Chat
 
 {!trying-out-zulip.md!}
 
@@ -34,7 +34,7 @@ ensure you can always move from our hosting to yours (and back).
 
 {!advantages-of-zulip-cloud.md!}
 
-### Advantages of self-hosting Zulip
+### Advantages of self-hosting Feniks Chat
 
 {!advantages-of-self-hosting-zulip.md!}
 
@@ -98,7 +98,7 @@ stream](/help/create-a-stream#stream-options).
 {!how-to-invite-users-to-join.md!}
 
 To get everyone off to a good start, you may wish to share the guide
-to [Getting started with Zulip](/help/getting-started-with-zulip).
+to [Getting started with Feniks Chat](/help/getting-started-with-zulip).
 
 !!! tip ""
     You can link to your Feniks Chat organization with a [nice badge](/help/linking-to-zulip).
@@ -118,7 +118,7 @@ users at once, [notifying](/help/pm-mention-alert-notifications) them about a me
 
 ## Further reading
 
-* [Getting started with Zulip](/help/getting-started-with-zulip)
+* [Getting started with Feniks Chat](/help/getting-started-with-zulip)
 * [Streams and topics](/help/streams-and-topics)
 * [Moderating open organizations](/help/moderating-open-organizations)
 * [Setting up Feniks Chat for a class](/help/setting-up-zulip-for-a-class)

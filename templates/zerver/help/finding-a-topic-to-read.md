@@ -12,7 +12,7 @@ Like your email inbox, Feniks Chat works best if you read it topic-by-topic.
 
 ## Related articles
 
-* [Getting started with Zulip](/help/getting-started-with-zulip)
+* [Getting started with Feniks Chat](/help/getting-started-with-zulip)
 * [Reading strategies](/help/reading-strategies)
 * [Reading topics](/help/reading-topics)
 * [Reading private messages (PMs)](/help/reading-pms)

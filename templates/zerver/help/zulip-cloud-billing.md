@@ -8,7 +8,7 @@ reach out at sales@zulip.com.
 
 ### How does having 10,000 messages of search history on Feniks Chat Cloud Free work?
 
-Only the most recent 10,000 messages can be viewed and searched on the Zulip
+Only the most recent 10,000 messages can be viewed and searched on the Feniks Chat
 Cloud Free plan. Older messages are still stored and will become available
 again if the organization is upgraded to Feniks Chat Cloud Standard.
 
@@ -57,7 +57,7 @@ guest.
 
 ## Related articles
 
-* [Trying out Zulip](/help/trying-out-zulip)
+* [Trying out Feniks Chat](/help/trying-out-zulip)
 * [Feniks Chat Cloud or self-hosting?](/help/zulip-cloud-or-self-hosting)
 * [Migrating from other chat tools](/help/migrating-from-other-chat-tools)
 * [Contact support](/help/contact-support)

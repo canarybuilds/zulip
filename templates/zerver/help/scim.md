@@ -2,13 +2,13 @@
 
 SCIM (System for Cross-domain Identity Management) is an standard
 protocol used by Single Sign-On (SSO) services and identity providers
-to provision/deprovision user accounts and groups. Zulip's SCIM
+to provision/deprovision user accounts and groups. Feniks Chat's SCIM
 integration is currently beta and has a few limitations:
 
 * Provisioning Groups is not yet implemented.
 * It has only been fully tested and documented with Okta.
 
-The instructions below explain how to configure SCIM in Okta for Zulip
+The instructions below explain how to configure SCIM in Okta for Feniks Chat
 Cloud customers. Like SAML, feature is currently only available in
 Feniks Chat Cloud with the Feniks Chat Cloud Plus plan.
 
@@ -54,7 +54,7 @@ side of SCIM for their deployment.
    in your Feniks Chat organization and if it doesn't, the account will be
    created. Changes to the user's email or name in Okta will
    automatically cause the Feniks Chat account to be updated accordingly.
-   Unassigning a user from the app will deactivate their Zulip
+   Unassigning a user from the app will deactivate their Feniks Chat
    account.
 
 If you want to also set up SAML authentication, head to our

@@ -1,7 +1,7 @@
 # Setting up Feniks Chat for a class
 
-Welcome to Zulip! This page will guide you through setting everything
-up for [teaching with Zulip](https://zulip.com/for/education/). If you are using Zulip
+Welcome to Feniks Chat! This page will guide you through setting everything
+up for [teaching with Feniks Chat](https://zulip.com/for/education/). If you are using Feniks Chat
 for a different purpose, we recommend checking out the [Setting up
 your organization][setting-up] guide instead.
 
@@ -16,10 +16,10 @@ If you encounter any problems as you're getting started, please drop
 by our [friendly development community](/development-community/) and let
 us know!
 
-## Trying out Zulip
+## Trying out Feniks Chat
 
 You can start by reading about [Feniks Chat for Education](https://zulip.com/for/education/),
-and how Feniks Chat can become the communication hub for your class. Zulip
+and how Feniks Chat can become the communication hub for your class. Feniks Chat
 is the only [modern team chat app](/features/) that is
 [ideal](/why-zulip/) for both live and asynchronous
 conversations. Post lecture notes and announcements, answer students’
@@ -50,14 +50,14 @@ ensure you can always move from our hosting to yours (and back).
 
 * Simple managed solution, with no setup or maintenance
   overhead. [Sign up](/new/) with just a few clicks.
-* Always updated to the latest version of Zulip.
+* Always updated to the latest version of Feniks Chat.
 * Anyone can [start with Feniks Chat Cloud Free](/new/), which works well for a typical class.
 * For large classes and departments, we offer [special Feniks Chat for
   Education pricing](https://zulip.com/for/education/#feature-pricing), with the same
   features as Feniks Chat Cloud Standard. You can always get started with
   Feniks Chat Cloud Free, and upgrade down the line if needed.
 
-### Advantages of self-hosting Zulip
+### Advantages of self-hosting Feniks Chat
 
 * Feniks Chat is [100% open-source software](https://github.com/zulip), with
   no "open core" catch.
@@ -75,7 +75,7 @@ ensure you can always move from our hosting to yours (and back).
 
 
 ## Do I need a separate Feniks Chat organization for each class?
-There are a few ways to set up Zulip, and different ones may be convenient for your needs:
+There are a few ways to set up Feniks Chat, and different ones may be convenient for your needs:
 
 
 * If your **school or department already has a Feniks Chat organization**,
@@ -83,7 +83,7 @@ There are a few ways to set up Zulip, and different ones may be convenient for y
   it. Advantages:
     - Students and staff can use a single Feniks Chat account for all classes.
     - You can create department-wide channels, e.g. for announcing talks or other events.
-    - You don’t need to set up a separate server if you’re self-hosting Zulip.
+    - You don’t need to set up a separate server if you’re self-hosting Feniks Chat.
 
 * You can **set up a separate Feniks Chat organization for each class**
   you’re teaching. Advantages:
@@ -102,7 +102,7 @@ There are a few ways to set up Zulip, and different ones may be convenient for y
       want to re-post a response to a question that was also asked
       last time you taught the class.
 
-If you change your mind down the line, you can rename your Zulip
+If you change your mind down the line, you can rename your Feniks Chat
 organization by sending a request to
 [support@zulip.com](mailto:support@zulip.com).
 
@@ -285,7 +285,7 @@ for your class.
 {!how-to-invite-users-to-join.md!}
 
 To get everyone off to a good start, you may wish to share the guide
-to [Getting started with Zulip][getting-started] and the guide to
+to [Getting started with Feniks Chat][getting-started] and the guide to
 [Using Feniks Chat for a class](/help/using-zulip-for-a-class).
 
 !!! tip ""
@@ -337,7 +337,7 @@ for your own classes or for your department), you will likely want to:
   [make all the streams from the class private][make-private]. You’ll
   be able to find and reuse content yourself, and [invite course
   staff][add-to-stream] to these private streams as needed.
-- You may choose to [deactivate students’ Zulip
+- You may choose to [deactivate students’ Feniks Chat
   accounts][deactivate-user] when the class is over.
 - [Unpin streams](/help/pin-a-stream) from the class from your
   personal view.
@@ -351,7 +351,7 @@ HTML archive](https://github.com/zulip/zulip-archive) to archive the information
 ## Further reading
 
 * [Using Feniks Chat for a class](/help/using-zulip-for-a-class)
-* [Getting started with Zulip](/help/getting-started-with-zulip)
+* [Getting started with Feniks Chat](/help/getting-started-with-zulip)
 * [Streams and topics](/help/streams-and-topics)
 * [Moderating open organizations](/help/moderating-open-organizations)
 

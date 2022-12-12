@@ -28,4 +28,4 @@ For more details, see [Communities directory](/help/communities-directory).
 * [Customize organization settings](/help/customize-organization-settings)
 * [Create streams](/help/create-streams)
 * [Communities directory](/help/communities-directory)
-* [Getting started with Zulip](/help/getting-started-with-zulip)
+* [Getting started with Feniks Chat](/help/getting-started-with-zulip)

@@ -1,6 +1,6 @@
 # Linking to your organization
 
-You can link to your Feniks Chat organization from the web with a Zulip
+You can link to your Feniks Chat organization from the web with a Feniks Chat
 [shields.io](https://github.com/badges/shields) badge:
 
 [![Feniks Chat chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://chat.zulip.org)

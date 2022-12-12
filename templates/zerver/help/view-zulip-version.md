@@ -2,12 +2,12 @@
 
 ## Feniks Chat server and web app version
 
-If your organization self-hosts Zulip, the server administrator will need to
-[upgrade Zulip][upgrade-zulip] in order for you to experience the latest
+If your organization self-hosts Feniks Chat, the server administrator will need to
+[upgrade Feniks Chat][upgrade-zulip] in order for you to experience the latest
 improvements. You can check which [version][changelog] of the Feniks Chat server and
 web app your organization is using.
 
-Feniks Chat Cloud organizations are always updated to the latest version of Zulip.
+Feniks Chat Cloud organizations are always updated to the latest version of Feniks Chat.
 
 [upgrade-zulip]:
     https://zulip.readthedocs.io/en/latest/production/upgrade-or-modify.html
@@ -25,7 +25,7 @@ Feniks Chat Cloud organizations are always updated to the latest version of Zuli
 
 !!! tip ""
     If the Feniks Chat server is running a custom branch, the **merge base**
-    will also be shown. It indicates which official version of Zulip
+    will also be shown. It indicates which official version of Feniks Chat
     the custom branch is based on.
 
 ## Feniks Chat desktop app version
@@ -45,5 +45,5 @@ web app.
 ## Related articles
 
 * [Desktop installation guides](/help/desktop-app-install-guide)
-* [Upgrading Zulip][upgrade-zulip]
+* [Upgrading Feniks Chat][upgrade-zulip]
 * [Feniks Chat release lifecycle](https://zulip.readthedocs.io/en/latest/overview/release-lifecycle.html)
