@@ -2,8 +2,8 @@
 
 {!admin-only.md!}
 
-Zulip supports using SAML authentication for single sign-on, both for Zulip
-Cloud and self-hosted Zulip servers.
+Feniks Chat supports using SAML authentication for single sign-on, both for Zulip
+Cloud and self-hosted Feniks Chat servers.
 
 This page describes how to configure SAML authentication with several common providers:
 
@@ -20,8 +20,8 @@ on this page may be a useful reference for how to set up specific SAML
 providers.
 
 !!! warn ""
-    Zulip Cloud customers who wish to use SAML authentication must upgrade to
-    the Zulip Cloud Plus plan. Contact
+    Feniks Chat Cloud customers who wish to use SAML authentication must upgrade to
+    the Feniks Chat Cloud Plus plan. Contact
     [support@zulip.com](mailto:support@zulip.com) for plan benefits and pricing.
 
 ## Configure SAML
@@ -44,7 +44,7 @@ providers.
          * `last_name` to `user.lastName`
 
 1. Assign the appropriate accounts in the **Assignments** tab. These are the users
-   that will be able to log in to your Zulip organization.
+   that will be able to log in to your Feniks Chat organization.
 
 1. {!send-us-info.md!}
 
@@ -97,7 +97,7 @@ providers.
 1. From your AzureAD Dashboard, navigate to **Enterprise applications**,
    click **New application**, followed by **Create your own application**.
 
-1. Enter a name (e.g., `Zulip Cloud`) for the new AzureAD application,
+1. Enter a name (e.g., `Feniks Chat Cloud`) for the new AzureAD application,
    choose **Integrate any other application you don't find in the
    gallery (Non-gallery)**, and click **Create**.
 
@@ -143,7 +143,7 @@ providers.
 
 1. Make sure your Keycloak server is up and running.
 
-1. In Keycloak, register a new Client for your Zulip organization:
+1. In Keycloak, register a new Client for your Feniks Chat organization:
     * **Client-ID**: `https://zulipchat.com`
     * **Client Protocol**: `saml`
     * **Client SAML Endpoint**: *(empty)*

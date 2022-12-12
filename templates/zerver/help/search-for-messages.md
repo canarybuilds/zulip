@@ -1,6 +1,6 @@
 # Searching for messages
 
-Zulip has a powerful search engine under its hood. Search for messages using
+Feniks Chat has a powerful search engine under its hood. Search for messages using
 the search bar at the top of the app.
 
 ## Example
@@ -17,7 +17,7 @@ this:
 
 ## List of operators
 
-As you start typing, Zulip will suggest possible operator completions.
+As you start typing, Feniks Chat will suggest possible operator completions.
 Operators can be used with keywords, or on their own. For example,
 
 * `stream:design logo` will search for the word `logo` within `#design`
@@ -65,7 +65,7 @@ shared history](/help/stream-permissions), including messages sent
 before you joined the stream (or organization) or those sent to public
 streams you are not subscribed to.
 
-By default, Zulip searches messages in your history, i.e. the
+By default, Feniks Chat searches messages in your history, i.e. the
 messages you actually received.  This avoids cluttering search results
 with irrelevant messages from public streams you're not interested in.
 
@@ -86,7 +86,7 @@ Most searches consist of a list of operators followed by a list of keywords.
 * `new logo`: Search for messages with both `new` and `logo`.
 * `"new logo"`: Search for messages with the phrase `"new logo"`.
 
-Zulip does some basic stemming, so `wave` will match `waves` and
+Feniks Chat does some basic stemming, so `wave` will match `waves` and
 `waving`. Keywords are case-insensitive, so `wave` will also match `Wave`.
 
 Emoji are included in searches, so if you search for `octopus` it will
@@ -95,7 +95,7 @@ include messages with
 class="emoji-small"/>.
 
 
-Note that Zulip ignores common words like `a`, `the`, and about 100
+Note that Feniks Chat ignores common words like `a`, `the`, and about 100
 others. A quirk in Zulip's current implementation means that if all of your
 keywords are ignored, we'll return 0 search results.
 

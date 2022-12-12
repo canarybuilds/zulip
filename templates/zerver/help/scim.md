@@ -10,7 +10,7 @@ integration is currently beta and has a few limitations:
 
 The instructions below explain how to configure SCIM in Okta for Zulip
 Cloud customers. Like SAML, feature is currently only available in
-Zulip Cloud with the Zulip Cloud Plus plan.
+Feniks Chat Cloud with the Feniks Chat Cloud Plus plan.
 
 These instructions can also be used by self-hosters to set up the Okta
 side of SCIM for their deployment.
@@ -24,11 +24,11 @@ side of SCIM for their deployment.
 
 1. Search for `SCIM` and select `SCIM 2.0 Test App (Header Auth)`.
 
-1. Click `Add` and choose your `Application label`. For example, you can name it `Zulip SCIM`.
+1. Click `Add` and choose your `Application label`. For example, you can name it `Feniks Chat SCIM`.
 
 1. Continue to `Sign-On Options`. Leave the `SAML` options, as this type of Okta application
    doesn't actually support `SAML` authentication, and you'll need to set up a separate Okta app
-   to activate `SAML` for your Zulip organization.
+   to activate `SAML` for your Feniks Chat organization.
 
 1. In `Credentials Details`, set `Application username format` to `Email` and
     `Update application username on` to `Create and update`.
@@ -39,7 +39,7 @@ side of SCIM for their deployment.
    Okta will ask you for the `Base URL` and `API token`. The `Base URL` should be
    `yourorganization.zulipchat.com/scim/v2` and for `API token` you'll set the value
    given to you by support. When you proceed to the next step, Okta will verify that
-   these details are correct by making a SCIM request to the Zulip server.
+   these details are correct by making a SCIM request to the Feniks Chat server.
 
 1. In the `To App` section of the `Provisioning` tab (which should be opened by default
    when you continue from the previous step), edit the `Provisioning to App` settings
@@ -49,11 +49,11 @@ side of SCIM for their deployment.
    and `familyName`.
 
 1. Now the integration should be ready and you can `Assign` users to
-   the app to configure their Zulip accounts to be managed by
+   the app to configure their Feniks Chat accounts to be managed by
    SCIM. When you assign a user, Okta will check if the account exists
-   in your Zulip organization and if it doesn't, the account will be
+   in your Feniks Chat organization and if it doesn't, the account will be
    created. Changes to the user's email or name in Okta will
-   automatically cause the Zulip account to be updated accordingly.
+   automatically cause the Feniks Chat account to be updated accordingly.
    Unassigning a user from the app will deactivate their Zulip
    account.
 
