@@ -15,7 +15,7 @@ They also do not contribute to stream unread counts.
 
 1. Hover over the topic in the left sidebar.
 
-1. Click the ellipsis (<i class="zulip-icon feniks chat-icon-ellipsis-v-solid"></i>).
+1. Click the ellipsis (<i class="zulip-icon feniks-chat-icon-ellipsis-v-solid"></i>).
 
 4. Select **Mute topic**.
 
@@ -28,7 +28,7 @@ They also do not contribute to stream unread counts.
 1. Find a message belonging to the topic that you
    wish to mute.
 
-2. Click on the <i class="zulip-icon feniks chat-icon-mute"></i> to mute the topic.
+2. Click on the <i class="zulip-icon fenik-chat-icon-mute"></i> to mute the topic.
 
 {end_tabs}
 
