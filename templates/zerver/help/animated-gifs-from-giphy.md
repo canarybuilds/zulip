@@ -2,11 +2,11 @@
 
 !!! tip ""
 
-    This feature is not available on self-hosted Zulip servers where
+    This feature is not available on self-hosted Feniks Chat servers where
     the [GIPHY integration][configure-giphy] has not been configured
     by a system administrator.
 
-Zulip integrates with [GIPHY](https://giphy.com), allowing you to
+Feniks Chat integrates with [GIPHY](https://giphy.com), allowing you to
 conveniently search for animated GIFs and include them in your
 messages.
 
@@ -23,7 +23,7 @@ they can also distract from the content of a conversation.
 
 1. **Click on an image** to insert a link to the GIF in the compose box.
 
-1. Send the message.  Zulip will display the GIF like any other linked
+1. Send the message.  Feniks Chat will display the GIF like any other linked
    image.
 {end_tabs}
 
@@ -61,7 +61,7 @@ directly by your browser, GIPHY will be able to see your IP address,
 and may use that data to track you, similar to if you visited the
 GIPHY website and typed the same search keywords there.
 
-Zulip proxies all external images in messages through the server,
+Feniks Chat proxies all external images in messages through the server,
 including those from GIPHY, to prevent images from being used to track
 recipients of GIFs from GIPHY.
 
