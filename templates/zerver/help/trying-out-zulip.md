@@ -6,6 +6,6 @@
 
 * [Getting started with Zulip](/help/getting-started-with-zulip)
 * [Setting up your organization](/help/getting-your-organization-started-with-zulip)
-* [Zulip Cloud or self-hosting?](/help/zulip-cloud-or-self-hosting)
+* [Feniks Chat Cloud or self-hosting?](/help/zulip-cloud-or-self-hosting)
 * [Migrating from other chat tools](/help/migrating-from-other-chat-tools)
 * [Streams and topics](/help/streams-and-topics)

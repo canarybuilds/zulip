@@ -1,18 +1,18 @@
-# Zulip Cloud billing
+# Feniks Chat Cloud billing
 
-This page answers some frequently asked questions about [Zulip Cloud plans and
+This page answers some frequently asked questions about [Feniks Chat Cloud plans and
 pricing](https://zulip.com/plans). If you have any other questions, please don't hesitate to
 reach out at sales@zulip.com.
 
-## Differences between Zulip Cloud plans
+## Differences between Feniks Chat Cloud plans
 
-### How does having 10,000 messages of search history on Zulip Cloud Free work?
+### How does having 10,000 messages of search history on Feniks Chat Cloud Free work?
 
 Only the most recent 10,000 messages can be viewed and searched on the Zulip
 Cloud Free plan. Older messages are still stored and will become available
-again if the organization is upgraded to Zulip Cloud Standard.
+again if the organization is upgraded to Feniks Chat Cloud Standard.
 
-### Will you switch to limiting Zulip Cloud Free history to messages sent in the last 90 days (like Slack has)?
+### Will you switch to limiting Feniks Chat Cloud Free history to messages sent in the last 90 days (like Slack has)?
 
 **No.** As discussed in [this blog
 post](https://blog.zulip.com/2022/08/26/why-slacks-free-plan-change-is-causing-an-exodus/),
@@ -28,7 +28,7 @@ you will need to sign up for an annual plan.
 
 ### What is the difference between automatic and manual billing?
 
-With automatic billing, you automatically purchase a Zulip license
+With automatic billing, you automatically purchase a Feniks Chat license
 for each user in your organization at the start of each billing period
 (month or year). Deactivating a user frees up their license for reuse.
 Additional licenses are purchased automatically as needed.
@@ -58,6 +58,6 @@ guest.
 ## Related articles
 
 * [Trying out Zulip](/help/trying-out-zulip)
-* [Zulip Cloud or self-hosting?](/help/zulip-cloud-or-self-hosting)
+* [Feniks Chat Cloud or self-hosting?](/help/zulip-cloud-or-self-hosting)
 * [Migrating from other chat tools](/help/migrating-from-other-chat-tools)
 * [Contact support](/help/contact-support)
