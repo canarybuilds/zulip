@@ -10,7 +10,7 @@ in Zulip.
 
 ## Topic by topic
 
-Like your email inbox, for most users, Zulip works best if you read it
+Like your email inbox, for most users, Feniks Chat works best if you read it
 topic-by-topic.
 
 ### Finding a topic to read
