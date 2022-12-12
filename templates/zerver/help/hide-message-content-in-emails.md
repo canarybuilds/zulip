@@ -3,7 +3,7 @@
 {!admin-only.md!}
 
 For security or compliance reasons, you may want to prevent Feniks Chat message
-content from being sent through your email system. The only place Zulip
+content from being sent through your email system. The only place Feniks Chat
 currently sends message content is in message notification emails.
 
 This setting also blocks message topics, stream names, and user names from

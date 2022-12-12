@@ -3,7 +3,7 @@
 Starting with Feniks Chat 5.0, Feniks Chat supports importing data from Rocket.Chat,
 including users, teams, channels, discussions, messages, and more.
 
-**Note:** You can only import a Rocket.Chat workspace as a new Zulip
+**Note:** You can only import a Rocket.Chat workspace as a new Feniks Chat
 organization. In particular, you cannot use this tool to import data
 into an existing Feniks Chat organization.
 
@@ -35,9 +35,9 @@ organization first.
 
 ### Import into a self-hosted Feniks Chat server
 
-First [install a new Zulip
+First [install a new Feniks Chat
 server](https://zulip.readthedocs.io/en/stable/production/install.html)
-with Feniks Chat 5.0 or newer, skipping "Step 3: Create a Zulip
+with Feniks Chat 5.0 or newer, skipping "Step 3: Create a Feniks Chat
 organization, and log in" (you'll create your Feniks Chat organization via
 the data import tool instead).
 
@@ -85,14 +85,14 @@ This import tool is currently beta has the following known limitations:
 -   User avatars are not imported.
 -   Default channels for new users are not imported.
 -   Starred messages are not imported.
--   Messages longer than Zulip's limit of 10,000 characters are not
+-   Messages longer than Feniks Chat's limit of 10,000 characters are not
     imported.
 -   Messages from Rocket.Chat Discussions are imported as topics
     inside the Feniks Chat stream corresponding to the parent channel of the
     Rocket.Chat Discussion.
 -   Messages from Rocket.Chat Discussions having direct channels
     (i.e. private messages) as their parent are imported as normal
-    private messages in Zulip.
+    private messages in Feniks Chat.
 -   While Rocket.Chat Threads are in general imported as separate
     topics, Rocket.Chat Threads within Rocket.Chat Discussions are
     imported as normal messages within the topic containing that

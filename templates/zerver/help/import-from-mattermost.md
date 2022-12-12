@@ -4,7 +4,7 @@ Starting with Feniks Chat 2.1, Feniks Chat supports importing data from Mattermo
 including users, channels, messages, and custom emoji.
 
 
-**Note:** You can only import a Mattermost team as a new Zulip
+**Note:** You can only import a Mattermost team as a new Feniks Chat
 organization. In particular, you cannot use this tool to import data
 into an existing Feniks Chat organization.
 
@@ -123,7 +123,7 @@ Replace `<username>` and `<server_ip>` with the appropriate values below.
 ### Import into Feniks Chat Cloud
 
 Email support@zulip.com with your exported archive,
-the name of the Mattermost team you want to import, and your desired Zulip
+the name of the Mattermost team you want to import, and your desired Feniks Chat
 subdomain. Your imported organization will be hosted at
 `<subdomain>.zulipchat.com`.
 
