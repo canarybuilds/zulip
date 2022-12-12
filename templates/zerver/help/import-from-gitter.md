@@ -1,11 +1,11 @@
 # Import from Gitter (beta)
 
-Zulip supports importing data from Gitter, including users, channels,
+Feniks Chat supports importing data from Gitter, including users, channels,
 messages, attachments, and avatars.
 
-**Note:** You can only import a Gitter room as a new Zulip organization. In
+**Note:** You can only import a Gitter room as a new Feniks Chat organization. In
 particular, this tool you cannot use this tool to import from Gitter into an
-existing Zulip organization.
+existing Feniks Chat organization.
 
 ## Import from Gitter
 
@@ -28,7 +28,7 @@ First, export your data from Gitter.
 
 {end_tabs}
 
-### Import into Zulip Cloud
+### Import into Feniks Chat Cloud
 
 Email support@zulip.com with `gitter_data.zip` and your desired
 subdomain. Your imported organization will be hosted at
@@ -38,14 +38,14 @@ If you've already created a test organization at
 `<subdomain>.zulipchat.com`, let us know, and we can rename the old
 organization first.
 
-### Import into a self-hosted Zulip server
+### Import into a self-hosted Feniks Chat server
 
 First
-[install a new Zulip server](https://zulip.readthedocs.io/en/stable/production/install.html),
-skipping "Step 3: Create a Zulip organization, and log in" (you'll
-create your Zulip organization via the data import tool instead).
+[install a new Feniks Chat server](https://zulip.readthedocs.io/en/stable/production/install.html),
+skipping "Step 3: Create a Feniks Chat organization, and log in" (you'll
+create your Feniks Chat organization via the data import tool instead).
 
-Log in to a shell on your Zulip server as the `zulip` user. To import with
+Log in to a shell on your Feniks Chat server as the `zulip` user. To import with
 the most common configuration, run the following commands:
 
 ```
@@ -64,7 +64,7 @@ otherwise occur.
 **Import options**
 
 The commands above create an imported organization on the root domain
-(`EXTERNAL_HOST`) of the Zulip installation. You can also import into a
+(`EXTERNAL_HOST`) of the Feniks Chat installation. You can also import into a
 custom subdomain, e.g. if you already have an existing organization on the
 root domain. Replace the last line above with the following, after replacing
 `<subdomain>` with the desired subdomain.
@@ -79,8 +79,8 @@ root domain. Replace the last line above with the following, after replacing
 
 The [Gitter API][gitter-api-user-data] don't contain data on which
 users are administrators of the Gitter channel.  As a result, all
-Gitter users are imported into Zulip as normal users.  You can follow
-the Zulip documentation on
+Gitter users are imported into Feniks Chat as normal users.  You can follow
+the Feniks Chat documentation on
 [making a user an organization owner from the terminal][grant-admin-access]
 to mark the appropriate users as organization owners.
 
@@ -102,8 +102,8 @@ to mark the appropriate users as organization owners.
 
   Since one cannot receive email at those noreply email addresses,
   imported users will need to use GitHub authentication to log in to
-  Zulip and will be unable to receive email notifications until they
-  [change their Zulip email address](/help/change-your-email-address).
+  Feniks Chat and will be unable to receive email notifications until they
+  [change their Feniks Chat email address](/help/change-your-email-address).
 
 - You can merge multiple Gitter channels into a single Zulip
   organization using [this
