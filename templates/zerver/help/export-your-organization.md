@@ -46,9 +46,9 @@ with lots of messages or uploaded files.
 
 {start_tabs}
 
-1. Email support@zulip.com with your organization's zulip.com URL, asking for
+1. Email support@zulip.com with your organization's feniks chat.com URL, asking for
    a full export with member consent. Email us from the same address that
-   you use to sign in to Zulip.
+   you use to sign in to Feniks Chat.
 
 1. We will verify that you are an organization administrator, and email you
    instructions on how to collect member consent.
@@ -77,11 +77,11 @@ import.
 This export is limited to paid Feniks Chat Cloud Standard customers, though in rare
 cases may be available to other organizations in case of due legal process.
 
-To start this export, email support@zulip.com with your zulip.com
+To start this export, email support@zulip.com with your feniks chat.com
 URL, asking for a full export without member consent.
 
 You'll also need to email us evidence that you have authority to read
-members' private messages. Typically, this will be because the zulip.com
+members' private messages. Typically, this will be because the feniks chat.com
 URL is administered by a corporation, and you are an official
 representative of that corporation. By requesting and approving this export,
 you will also assume full legal responsibility that the appropriate employment

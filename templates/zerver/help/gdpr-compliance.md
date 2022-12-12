@@ -62,7 +62,7 @@ To support delivery of our Services, Kandra Labs, Inc. may engage and
 use data processors with access to certain Customer Data (each, a
 "Subprocessor").  This section provides important information about
 the identity, location and role of each Subprocessor.  Terms used on
-this page but not defined have the meaning set forth in Zulip's Terms
+this page but not defined have the meaning set forth in Feniks Chat's Terms
 of Service or superseding written agreement between Customer and
 Kandra Labs (the "Agreement").
 
@@ -142,4 +142,4 @@ There's a lot more that goes into GDPR compliance, including securing
 your server infrastructure responsibly, internal policies around
 access, logging, and backups, etc.  If you need detailed guidance, we
 recommend contacting support@zulip.com; our paid support contracts
-include assistance with understanding GDPR compliance with Zulip.
+include assistance with understanding GDPR compliance with Feniks Chat.

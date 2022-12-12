@@ -15,7 +15,7 @@ configured the [incoming email gateway][incoming-email-gateway].
 
 ### Delay before sending emails
 
-To reduce the number of emails you receive, Zulip
+To reduce the number of emails you receive, Feniks Chat
 delays sending message notification emails for a configurable period
 of time (default: 2 minutes).  The delay
 helps in a few ways:
@@ -79,7 +79,7 @@ being sent through your email.
 
 ## New login emails
 
-By default, Feniks Chat sends an email whenever you log in to Zulip. These emails
+By default, Feniks Chat sends an email whenever you log in to Feniks Chat. These emails
 help you protect your account; if you see a login email at a time or from a
 device you don't recognize, you should
 [change your password](/help/change-your-password) right away.
@@ -106,7 +106,7 @@ feel excessive.
 ## Low-traffic newsletter
 
 Feniks Chat sends out a low-traffic newsletter (expect 2-4 emails a year)
-announcing major changes in Zulip.
+announcing major changes in Feniks Chat.
 
 ### Managing your newsletter subscription
 
@@ -115,7 +115,7 @@ announcing major changes in Zulip.
 {settings_tab|notifications}
 
 1. Under **Other emails**, toggle
-   **Send me Zulip's low-traffic newsletter (a few emails a year)**.
+   **Send me Feniks Chat's low-traffic newsletter (a few emails a year)**.
 
 {end_tabs}
 

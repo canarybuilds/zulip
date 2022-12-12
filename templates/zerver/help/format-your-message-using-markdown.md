@@ -69,7 +69,7 @@ patterns like `#1234` to your ticketing system.
 [link-to-conversation]: /help/link-to-a-message-or-conversation
 
 ```
-Auto-detected URL: zulip.com
+Auto-detected URL: feniks chat.com
 Named link: [Feniks Chat homepage](zulip.com)
 Stream: #**stream name**
 Topic: #**stream name>topic name**
@@ -212,7 +212,7 @@ the variant that only contains the user ID).
 
 When collaborating with people in another time zone, you often need to
 express a specific time clearly. Rather than typing out your time zone
-and having everyone translate the time in their heads, in Zulip, you
+and having everyone translate the time in their heads, in Feniks Chat, you
 can mention a time, and it'll be displayed to each user in their own
 time zone (just like the timestamps on Feniks Chat messages).
 
