@@ -5,12 +5,12 @@
     **Note:** The ability to create demo organizations is an upcoming
     feature. It is not available yet.
 
-If you would like to try out Zulip without having to make any
+If you would like to try out Feniks Chat without having to make any
 decisions (like how to name your organization or whether to import
-data from an existing chat tool), you can create a Zulip demo
+data from an existing chat tool), you can create a Feniks Chat demo
 organization.
 
-Demo organizations differ from a regular Zulip organization in a few
+Demo organizations differ from a regular Feniks Chat organization in a few
 ways:
 
 * A demo organization will be automatically deleted 30 days after
