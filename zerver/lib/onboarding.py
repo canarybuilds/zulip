@@ -56,7 +56,7 @@ def send_initial_pms(user: UserProfile) -> None:
                 " " + _("We also have a guide for [Setting up your organization]({help_url}).")
             ).format(help_url=help_url)
 
-        welcome_msg = _("Hello, and welcome to Zulip!") + "👋"
+        welcome_msg = _("Hello, and welcome to Feniks Chat!") + "👋"
         demo_org_warning = ""
         if user.realm.demo_organization_scheduled_deletion_date is not None:
             demo_org_warning = (
@@ -72,7 +72,7 @@ def send_initial_pms(user: UserProfile) -> None:
                 welcome_msg + " ",
                 _("This is a private message from me, Welcome Bot.") + "\n\n",
                 _(
-                    "If you are new to Zulip, check out our [Getting started guide]({getting_started_url})!"
+                    "If you are new to Feniks Chat, check out our [Getting started guide]({getting_started_url})!"
                 ),
                 "{organization_setup_text}" + "\n\n",
                 "{demo_org_warning}",
@@ -118,7 +118,7 @@ def select_welcome_bot_response(human_response_lower: str) -> str:
     if human_response_lower in ["app", "apps"]:
         return _(
             "You can [download](/apps) the [mobile and desktop apps](/apps). "
-            "Zulip also works great in a browser."
+            "Feniks Chat also works great in a browser."
         )
     elif human_response_lower == "profile":
         return _(
@@ -132,13 +132,13 @@ def select_welcome_bot_response(human_response_lower: str) -> str:
             "to [switch between the light and dark themes](/help/dark-theme), "
             "[pick your favorite emoji theme](/help/emoji-and-emoticons#change-your-emoji-set), "
             "[change your language](/help/change-your-language), "
-            "and make other tweaks to your Zulip experience."
+            "and make other tweaks to your Feniks Chat experience."
         )
     elif human_response_lower in ["stream", "streams", "channel", "channels"]:
         return "".join(
             [
                 _(
-                    "In Zulip, streams [determine who gets a message](/help/streams-and-topics). "
+                    "In Feniks Chat, streams [determine who gets a message](/help/streams-and-topics). "
                     "They are similar to channels in other chat apps."
                 )
                 + "\n\n",
@@ -149,7 +149,7 @@ def select_welcome_bot_response(human_response_lower: str) -> str:
         return "".join(
             [
                 _(
-                    "In Zulip, topics [tell you what a message is about](/help/streams-and-topics). "
+                    "In Feniks Chat, topics [tell you what a message is about](/help/streams-and-topics). "
                     "They are light-weight subjects, very similar to the subject line of an email."
                 )
                 + "\n\n",
@@ -163,7 +163,7 @@ def select_welcome_bot_response(human_response_lower: str) -> str:
         return "".join(
             [
                 _(
-                    "Zulip's [keyboard shortcuts](#keyboard-shortcuts) "
+                    "Feniks Chat's [keyboard shortcuts](#keyboard-shortcuts) "
                     "let you navigate the app quickly and efficiently."
                 )
                 + "\n\n",
@@ -174,7 +174,7 @@ def select_welcome_bot_response(human_response_lower: str) -> str:
         return "".join(
             [
                 _(
-                    "Zulip uses [Markdown](/help/format-your-message-using-markdown), "
+                    "Feniks Chat uses [Markdown](/help/format-your-message-using-markdown), "
                     "an intuitive format for **bold**, *italics*, bulleted lists, and more. "
                     "Click [here](#message-formatting) for a cheat sheet."
                 )
