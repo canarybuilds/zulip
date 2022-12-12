@@ -11,7 +11,7 @@ These settings will override any default stream notification settings.
 
 1. Hover over the stream in the left sidebar.
 
-1. Click the ellipsis (<i class="zulip-icon zulip-icon-ellipsis-v-solid"></i>) to the
+1. Click the ellipsis (<i class="zulip-icon feniks chat-icon-ellipsis-v-solid"></i>) to the
    right of the stream.
 
 1. Click **Stream settings**.

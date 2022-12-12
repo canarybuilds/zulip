@@ -9,7 +9,7 @@ notice, the status emoji is shown next to your name in the sidebars, message
 feed, and compose box.
 
 Your **availability** is a colored dot (like <span class="indicator green
-solid"></span>) that indicates if you're currently active on Zulip, idle,
+solid"></span>) that indicates if you're currently active on Feniks Chat, idle,
 or offline. You can also [go invisible](#invisible-mode) to appear offline
 to other users.
 
