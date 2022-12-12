@@ -1,6 +1,6 @@
 # Reading topics
 
-Like your email inbox, Zulip works best if you read it topic-by-topic.
+Like your email inbox, Feniks Chat works best if you read it topic-by-topic.
 
 {!reading-topics.md!}
 

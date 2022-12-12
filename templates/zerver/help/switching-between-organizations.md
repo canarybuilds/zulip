@@ -6,8 +6,8 @@ This article assumes you've [logged in](/help/logging-in) to each organization a
 
 {tab|web}
 
-You can log in to multiple Zulip organizations by opening multiple tabs, and
-logging into one Zulip organization in each tab. To switch Zulip organizations,
+You can log in to multiple Feniks Chat organizations by opening multiple tabs, and
+logging into one Feniks Chat organization in each tab. To switch Feniks Chat organizations,
 just switch tabs.
 
 {tab|desktop}
@@ -23,7 +23,7 @@ an organization from the **Window** menu in the top menu bar.
 
 1. Tap **Switch account**.
 
-1. Tap on the desired Zulip organization.
+1. Tap on the desired Feniks Chat organization.
 
 {end_tabs}
 
@@ -33,4 +33,4 @@ an organization from the **Window** menu in the top menu bar.
 * [Logging out](logging-out)
 * [Deactivate your account](deactivate-your-account)
 * [Create your organization profile](create-your-organization-profile)
-* [Joining a Zulip organization](/help/join-a-zulip-organization)
+* [Joining a Feniks Chat organization](/help/join-a-zulip-organization)

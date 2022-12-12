@@ -1,17 +1,17 @@
-# Zulip in a terminal
+# Feniks Chat in a terminal
 
 At present, there are a few alpha-quality implementations of a terminal
 client for Zulip:
 
-* [Zulip Terminal](https://github.com/zulip/zulip-terminal) provides a
-terminal interface for Zulip using [Urwid](http://urwid.org). It is
+* [Feniks Chat Terminal](https://github.com/zulip/zulip-terminal) provides a
+terminal interface for Feniks Chat using [Urwid](http://urwid.org). It is
 written in python and is being very actively developed; feedback and
 bug reports are very welcome!
 
 * [BarnOwl](https://github.com/aglasgall/barnowl/tree/zulip) is a
 multi-protocol terminal client for various chat systems, written in
 Perl.  [BarnOwl itself](https://barnowl.mit.edu/) is very mature
-software, and the Zulip integration has been used for a few years, but
+software, and the Feniks Chat integration has been used for a few years, but
 it isn't integrated into the mainline branch and needs work on
 documentation.
 

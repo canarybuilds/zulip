@@ -32,7 +32,7 @@ communities such as open-source projects and research communities.
 ### Enable or disable web-public streams
 
 !!! warn ""
-    Self-hosted Zulip servers must enable support for web-public streams in their
+    Self-hosted Feniks Chat servers must enable support for web-public streams in their
     [server settings](https://zulip.readthedocs.io/en/latest/production/settings.html)
     by setting `WEB_PUBLIC_STREAMS_ENABLED = True` prior to proceeding.
 
@@ -92,14 +92,14 @@ They **cannot**:
   other users.
 
 Logged out visitors have access to a subset of the metadata
-information available to any new account in the Zulip organization,
+information available to any new account in the Feniks Chat organization,
 detailed below.
 
 ### Information about the organization
 
 * The **Organization settings** and **Stream settings** menus are not
   available to logged out visitors. However, organization settings data is
-  required for Zulip to load, and may thus be [accessed via the Zulip API][info-via-api].
+  required for Feniks Chat to load, and may thus be [accessed via the Feniks Chat API][info-via-api].
 * Logged out visitors cannot view [organization statistics](/help/analytics).
 
 [info-via-api]: /help/public-access-option#information-that-can-be-accessed-via-api-when-web-public-streams-are-enabled
@@ -109,7 +109,7 @@ detailed below.
 Logged out visitors can see the following information about users who
 participate in web-public streams. They do not see this information
 about users who do not participate in web-public streams in the Zulip
-UI, though they may access it via the Zulip API.
+UI, though they may access it via the Feniks Chat API.
 
 * Name
 * Avatar
@@ -118,7 +118,7 @@ UI, though they may access it via the Zulip API.
 
 The following additional information is not available in the UI for
 logged out visitors, but may be accessed without an account via the
-Zulip API:
+Feniks Chat API:
 
 * Configured time zone
 * Which user groups a user belongs to
@@ -139,9 +139,9 @@ The unfortunate reality is that any service
 that allows hosting files visible to the Internet is a potential target for bad
 actors looking for places to distribute illegal or malicious content.
 
-In order to protect Zulip organizations from
+In order to protect Feniks Chat organizations from
 bad actors, web-public streams have a few limitations designed to make
-Zulip an inconvenient target:
+Feniks Chat an inconvenient target:
 
 * Only users in trusted roles (moderators and administrators) can be given
   permission to create web-public streams. This is intended to make it hard
@@ -155,7 +155,7 @@ interfere with legitimate use. Please [contact us](/help/contact-support)
 if your organization encounters any problems with legitimate activity caused
 these anti-abuse features.
 
-As a reminder, Zulip Cloud organizations are expected to
+As a reminder, Feniks Chat Cloud organizations are expected to
 [moderate content](/help/moderating-open-organizations) to ensure compliance
 with [Zulip's Rules of Use](https://zulip.com/policies/rules).
 
@@ -163,7 +163,7 @@ with [Zulip's Rules of Use](https://zulip.com/policies/rules).
 
 * Web-public streams do not yet support search engine indexing. You
   can use [zulip-archive](https://github.com/zulip/zulip-archive) to
-  create an archive of a Zulip organization that can be indexed by
+  create an archive of a Feniks Chat organization that can be indexed by
   search engines.
 * The web-public view is not yet integrated with Zulip's live-update
   system. As a result, a visitor will not see new messages that are

@@ -59,14 +59,14 @@ status message will appear.
 
 There are three availability states:
 
-* **Active** (<span class="indicator green solid"></span>): Zulip is
+* **Active** (<span class="indicator green solid"></span>): Feniks Chat is
   open and in focus on web, desktop or mobile, or was in the last 140
   seconds.
 
-* **Idle** (<span class="indicator orange"></span>): Zulip is open on
+* **Idle** (<span class="indicator orange"></span>): Feniks Chat is open on
   your computer (either desktop or web), but you are not active.
 
-* **Offline** (<span class="indicator grey"></span>): Zulip is not open
+* **Offline** (<span class="indicator grey"></span>): Feniks Chat is not open
   on your computer, or you have turned on invisible mode.
 
 You can see when someone offline was last active by hovering over their
@@ -74,7 +74,7 @@ name in the left or right sidebar.
 
 ### Invisible mode
 
-Zulip supports the privacy option of never updating the availability
+Feniks Chat supports the privacy option of never updating the availability
 information for your account. The result is that you will always
 appear to other users as **Offline**, regardless of your activity in
 Zulip.

@@ -1,6 +1,6 @@
 # Move content to another topic
 
-Zulip makes it possible to move messages between topics. This is
+Feniks Chat makes it possible to move messages between topics. This is
 useful for keeping messages organized when there is a digression, or
 the discussion shifts from the original topic. You can also [rename a
 topic](/help/rename-a-topic).
