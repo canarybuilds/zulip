@@ -3,7 +3,7 @@
 [//]: # (All screenshots here require line-height: 22px and font-size: 16px in .message-content.)
 [//]: # (Requires some additional fiddling for the LaTeX picture, inline code span, and maybe a few others.)
 
-Zulip uses a variant of
+Feniks Chat uses a variant of
 [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 to allow you to easily format your messages.
 
@@ -62,7 +62,7 @@ Numbered lists
 
 ## Links
 
-Zulip auto-linkifies URLs and [valid stream (and topic) names][link-to-conversation].
+Feniks Chat auto-linkifies URLs and [valid stream (and topic) names][link-to-conversation].
 You can also add a [custom linkifier](/help/add-a-custom-linkifier) to link
 patterns like `#1234` to your ticketing system.
 
@@ -70,7 +70,7 @@ patterns like `#1234` to your ticketing system.
 
 ```
 Auto-detected URL: zulip.com
-Named link: [Zulip homepage](zulip.com)
+Named link: [Feniks Chat homepage](zulip.com)
 Stream: #**stream name**
 Topic: #**stream name>topic name**
 Custom linkifier: #1234 (links to ticket 1234 in your ticketing system)
@@ -214,7 +214,7 @@ When collaborating with people in another time zone, you often need to
 express a specific time clearly. Rather than typing out your time zone
 and having everyone translate the time in their heads, in Zulip, you
 can mention a time, and it'll be displayed to each user in their own
-time zone (just like the timestamps on Zulip messages).
+time zone (just like the timestamps on Feniks Chat messages).
 
 A date picker will appear once you type `<time`.
 

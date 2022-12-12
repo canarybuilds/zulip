@@ -1,4 +1,4 @@
-# Zulip help center
+# Feniks Chat help center
 
 Welcome to the [Zulip](/) help center!
 

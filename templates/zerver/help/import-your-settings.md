@@ -1,8 +1,8 @@
 # Import your settings
 
-When you create a Zulip account using an email address already associated with
-an account in another Zulip organization, on Zulip Cloud or the same self-hosted
-Zulip installation, you can import your user settings from an existing account.
+When you create a Feniks Chat account using an email address already associated with
+an account in another Feniks Chat organization, on Feniks Chat Cloud or the same self-hosted
+Feniks Chat installation, you can import your user settings from an existing account.
 It's a convenient way to preserve the user settings that you've already customized.
 
 !!! tip ""
@@ -22,9 +22,9 @@ The import will include your:
 
 {start_tabs}
 
-1. Follow the instructions for [joining a Zulip organization](/help/join-a-zulip-organization).
+1. Follow the instructions for [joining a Feniks Chat organization](/help/join-a-zulip-organization).
 
-1. From the dropdown list under **Import settings from an existing Zulip account**,
+1. From the dropdown list under **Import settings from an existing Feniks Chat account**,
    select the account from which you would like to import your settings.
 
 1. Complete the registration form, and click **Sign up**.
@@ -35,5 +35,5 @@ The import will include your:
 
 ## Related articles
 
-* [Joining a Zulip organization](/help/join-a-zulip-organization)
+* [Joining a Feniks Chat organization](/help/join-a-zulip-organization)
 * [Review your settings](/help/review-your-settings)

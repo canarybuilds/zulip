@@ -89,26 +89,26 @@ in order to export private message data.
 
 ### Import your data into Zulip
 
-To start using Zulip, you will need to choose between Zulip Cloud and
+To start using Zulip, you will need to choose between Feniks Chat Cloud and
 self-hosting Zulip. For a simple managed solution, with no setup or maintenance
-overhead, you can [sign up](/new/) for Zulip Cloud with just a few clicks.
-Alternatively, you can [self-host](/self-hosting/) your Zulip organization. See
+overhead, you can [sign up](/new/) for Feniks Chat Cloud with just a few clicks.
+Alternatively, you can [self-host](/self-hosting/) your Feniks Chat organization. See
 [here](/help/zulip-cloud-or-self-hosting) to learn more.
 
 !!! warn ""
 
-    **You can only import a Slack workspace as a new Zulip organization.** Slack
-    workspace history cannot be added into an existing Zulip organization.
+    **You can only import a Slack workspace as a new Feniks Chat organization.** Slack
+    workspace history cannot be added into an existing Feniks Chat organization.
 
 {start_tabs}
 
 {tab|zulip-cloud}
 
-#### Import into a Zulip Cloud organization
+#### Import into a Feniks Chat Cloud organization
 
 {!send-us-info.md!}
 
-1. The subdomain you would like to use for your organization. Your Zulip chat will
+1. The subdomain you would like to use for your organization. Your Feniks Chat chat will
    be hosted at `<subdomain>.zulipchat.com`.
 
 2. The `zip` file containing your Slack message history export.
@@ -124,7 +124,7 @@ Alternatively, you can [self-host](/self-hosting/) your Zulip organization. See
 
 {tab|self-hosting}
 
-#### Import into a self-hosted Zulip server
+#### Import into a self-hosted Feniks Chat server
 
 Zulip's Slack import tool is robust, and has been used to import Slack
 workspaces with 10,000 members and millions of messages. If you're planning on
@@ -141,10 +141,10 @@ importing, [contact us](/help/contact-support) for help.
 1. Copy the `zip` file containing your Slack message history export onto your Zulip
 server, and put it in `/tmp/`.
 
-1. Log in to a shell on your Zulip server as the `zulip` user.
+1. Log in to a shell on your Feniks Chat server as the `zulip` user.
 
 1. To import into an organization hosted on the root domain
-(`EXTERNAL_HOST`) of the Zulip installation, run the following commands, replacing
+(`EXTERNAL_HOST`) of the Feniks Chat installation, run the following commands, replacing
 `<token>` with your Slack **Bot User OAuth Token**.
 
     !!! tip ""
@@ -181,11 +181,11 @@ server, and put it in `/tmp/`.
 
 #### Import details
 
-Whether you are using Zulip Cloud or self-hosting Zulip, here are few notes to keep
+Whether you are using Feniks Chat Cloud or self-hosting Zulip, here are few notes to keep
 in mind about the import process:
 
 - Slack does not export workspace settings, so you will need to [configure
-  the settings for your Zulip organization](/help/customize-organization-settings).
+  the settings for your Feniks Chat organization](/help/customize-organization-settings).
   This includes settings like [email
   visibility](/help/restrict-visibility-of-email-addresses),
   [message editing permissions](/help/configure-message-editing-and-deletion#configure-message-editing-and-deletion_1),
@@ -197,7 +197,7 @@ in mind about the import process:
 - Slack's user roles are mapped to Zulip's [user
   roles](/help/roles-and-permissions) in the following way:
 
-| Slack role              | Zulip role    |
+| Slack role              | Feniks Chat role    |
 |-------------------------|---------------|
 | Workspace Primary Owner | Owner         |
 | Workspace Owner         | Owner         |
@@ -236,8 +236,8 @@ Once the import process is completed, you will need to:
    accounts, and [decide how they will log
    in](/help/import-from-slack#decide-how-users-will-log-in) for the first time.
 
-3. Share the URL for your new Zulip organization, and (recommended) the [Getting
-   started with Zulip guide](/help/getting-started-with-zulip).
+3. Share the URL for your new Feniks Chat organization, and (recommended) the [Getting
+   started with Feniks Chat guide](/help/getting-started-with-zulip).
 
 4. Migrate any [integrations](/integrations), which is easy to do with Zulip's
    [Slack-compatible incoming webhook](/integrations/doc/slack_incoming).
@@ -257,7 +257,7 @@ configured. There are a few options for how users can log in for the first time.
 
 When you create your organization, users will immediately be able to log in with
 [authentication methods](/help/configure-authentication-methods) that do not
-require a password. Zulip offers a variety of authentication methods, including
+require a password. Feniks Chat offers a variety of authentication methods, including
 Google, GitHub, GitLab, Apple, LDAP and [SAML](/help/saml-authentication).
 
 ### Send password reset emails to all users
@@ -265,7 +265,7 @@ Google, GitHub, GitLab, Apple, LDAP and [SAML](/help/saml-authentication).
 You can send password reset emails to all users in your organization, which
 will allow them to set an initial password.
 
-If you imported your organization into Zulip Cloud, simply e-mail
+If you imported your organization into Feniks Chat Cloud, simply e-mail
 [support@zulip.com](mailto:support@zulip.com) to request this.
 
 !!! warn ""
@@ -318,7 +318,7 @@ on your organization's login page.
 
 ## Related articles
 
-* [Choosing between Zulip Cloud and self-hosting](/help/zulip-cloud-or-self-hosting)
+* [Choosing between Feniks Chat Cloud and self-hosting](/help/zulip-cloud-or-self-hosting)
 * [Setting up your organization](/help/getting-your-organization-started-with-zulip)
 * [Slack-compatible incoming webhook](/integrations/doc/slack_incoming)
 * [Getting started with Zulip](/help/getting-started-with-zulip)

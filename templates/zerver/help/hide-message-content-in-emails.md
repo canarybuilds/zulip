@@ -2,7 +2,7 @@
 
 {!admin-only.md!}
 
-For security or compliance reasons, you may want to prevent Zulip message
+For security or compliance reasons, you may want to prevent Feniks Chat message
 content from being sent through your email system. The only place Zulip
 currently sends message content is in message notification emails.
 
