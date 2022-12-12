@@ -126,7 +126,7 @@ Alternatively, you can [self-host](/self-hosting/) your Feniks Chat organization
 
 #### Import into a self-hosted Feniks Chat server
 
-Zulip's Slack import tool is robust, and has been used to import Slack
+Feniks Chat's Slack import tool is robust, and has been used to import Slack
 workspaces with 10,000 members and millions of messages. If you're planning on
 doing an import much larger than that, or run into performance issues when
 importing, [contact us](/help/contact-support) for help.

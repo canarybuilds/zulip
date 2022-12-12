@@ -2,7 +2,7 @@
 
 {!web-public-streams-intro.md!}
 
-Web-public streams are indicated with a globe (<i class="zulip-icon feniks chat-icon-globe"></i>) icon.
+Web-public streams are indicated with a globe (<i class="zulip-icon feniks-chat-icon-globe"></i>) icon.
 
 ## Enabling web-public streams in your organization
 
@@ -157,7 +157,7 @@ these anti-abuse features.
 
 As a reminder, Feniks Chat Cloud organizations are expected to
 [moderate content](/help/moderating-open-organizations) to ensure compliance
-with [Zulip's Rules of Use](https://zulip.com/policies/rules).
+with [Feniks Chat's Rules of Use](https://zulip.com/policies/rules).
 
 ## Caveats
 
