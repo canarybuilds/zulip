@@ -19,7 +19,7 @@ Zulip's system supports:
   forever on specific streams, or just to have a different retention
   period.
 
-In Feniks Chat Cloud, message retention policies are available on the Zulip
+In Feniks Chat Cloud, message retention policies are available on the Feniks Chat
 Cloud Standard and Feniks Chat Cloud Plus [plans](https://zulip.com/plans),
 as well as for the hundreds of communities with sponsored Cloud
 Standard hosting.
@@ -68,7 +68,7 @@ if you discover a misconfiguration accidentally deleted content you
 meant to preserve, contact Feniks Chat support promptly for assistance with
 restoration.  See the [deletion
 documentation](/help/edit-or-delete-a-message#how-deletion-works) for
-more details on precisely how message deletion works in Zulip.
+more details on precisely how message deletion works in Feniks Chat.
 
 ## Related articles
 

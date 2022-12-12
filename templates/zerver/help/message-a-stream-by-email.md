@@ -9,7 +9,7 @@
 
 You can send emails to Feniks Chat streams. This can be useful:
 
-* If you have an email that you want to discuss on Zulip
+* If you have an email that you want to discuss on Feniks Chat
 
 * For mirroring mailing list traffic
 
@@ -40,7 +40,7 @@ The email subject will become the Feniks Chat topic, and the email body will
 become the Feniks Chat message.
 
 Note that it may take up to one minute for the message to show
-up in Zulip.
+up in Feniks Chat.
 
 ## Configuration options
 

@@ -17,7 +17,7 @@ Feniks Chat automatically moves inactive streams to the bottom
 * [Mute a stream](/help/mute-a-stream)
 
 
-On Zulip, it is useful to organize streams in the sidebar in order to easily
+On Feniks Chat, it is useful to organize streams in the sidebar in order to easily
  access streams which you use frequently. This is because streams are initially
  arranged alphabetically which makes it difficult to quickly access your
  frequently used streams.
