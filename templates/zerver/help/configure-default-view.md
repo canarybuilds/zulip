@@ -49,7 +49,7 @@ designed to enhance the user experience in the app.
 
 By default, the <kbd>Esc</kbd> key shortcut will ultimately navigate to
 your default view. You can disable this key binding if you would prefer.
-This will not disable other <kbd>Esc</kbd> key shortcuts used in Zulip,
+This will not disable other <kbd>Esc</kbd> key shortcuts used in Feniks Chat,
 and will not affect the behavior of the <kbd>Ctrl</kbd> + <kbd>[</kbd>
 shortcut.
 

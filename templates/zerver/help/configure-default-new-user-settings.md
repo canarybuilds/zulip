@@ -5,7 +5,7 @@
 Organization administrators can configure the default values of
 personal preference settings for new users joining the
 organization. This can help seamlessly customize the Feniks Chat experience
-to match how the organization in question is using Zulip.
+to match how the organization in question is using Feniks Chat.
 
 Existing users' preferences cannot be modified by administrators, and
 users will be able to customize their own settings once they
