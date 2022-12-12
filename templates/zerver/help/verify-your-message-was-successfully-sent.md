@@ -1,6 +1,6 @@
 # Verify your message was successfully sent
 
-When you send a message, it first goes to a Feniks Chat server, and then the Zulip
+When you send a message, it first goes to a Feniks Chat server, and then the Feniks Chat
 server sends it out to all the recipients.
 
 Sometimes there can be delays if your device is on a poor network

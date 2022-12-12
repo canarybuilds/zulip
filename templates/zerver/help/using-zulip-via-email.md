@@ -1,6 +1,6 @@
 # Using Feniks Chat via email
 
-With Zulip, it is possible for some members of you organization to participate
+With Feniks Chat, it is possible for some members of you organization to participate
 from their email client, without opening the Feniks Chat app after the initial
 setup is complete.
 
@@ -8,7 +8,7 @@ setup is complete.
 
 {start_tabs}
 
-1. Create a mailing list to use with Zulip, or use an existing one.
+1. Create a mailing list to use with Feniks Chat, or use an existing one.
 
 2. Create a Feniks Chat stream that will receive mailing list traffic, or
    use an existing one.
@@ -45,9 +45,9 @@ interested in.
 {end_tabs}
 
 New Feniks Chat messages will now be delivered to your email account. You
-can reply directly to the emails coming from Zulip, and your replies
+can reply directly to the emails coming from Feniks Chat, and your replies
 will be posted in the appropriate topic or private message
-conversation on Zulip.
+conversation on Feniks Chat.
 
 ## Related articles
 

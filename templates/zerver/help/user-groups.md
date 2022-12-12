@@ -55,7 +55,7 @@ trying to send a message to a group of people, you'll want to either
 
 {!admin-only.md!}
 
-By default, [all members](/help/roles-and-permissions) in a Zulip
+By default, [all members](/help/roles-and-permissions) in a Feniks Chat
 organization can create user groups and manage user groups that they
 are a member of. However, you can restrict that ability to specific
 [roles](/help/roles-and-permissions).

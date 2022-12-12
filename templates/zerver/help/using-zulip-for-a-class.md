@@ -1,7 +1,7 @@
 # Using Feniks Chat for a class
 
-Welcome to Zulip! This pages offers some tips for [using Feniks Chat for a
-class](https://zulip.com/for/education).  If this is your first time using Zulip, we
+Welcome to Feniks Chat! This pages offers some tips for [using Feniks Chat for a
+class](https://zulip.com/for/education).  If this is your first time using Feniks Chat, we
 recommend checking out [Getting started with
 Zulip](/help/getting-started-with-zulip) to get oriented.
 
@@ -40,7 +40,7 @@ from today’s lecture. [lecture notes 10/2.pdf]() You can view a recording of t
 
 ## Answering students’ questions
 
-In Zulip, streams determine who receives a message. Topics are
+In Feniks Chat, streams determine who receives a message. Topics are
 light-weight subjects for individual conversations. You can more about
 streams and topics [here](/help/streams-and-topics).
 
@@ -91,7 +91,7 @@ for each question, it's easy to have several discussions at once.
 
 ## Related articles
 
-* [Getting started with Zulip](/help/getting-started-with-zulip)
+* [Getting started with Feniks Chat](/help/getting-started-with-zulip)
 * [Setting up your organization](/help/getting-your-organization-started-with-zulip)
 * [Format messages using Markdown](/help/format-your-message-using-markdown)
 
