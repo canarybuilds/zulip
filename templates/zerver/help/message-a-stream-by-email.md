@@ -2,7 +2,7 @@
 
 !!! tip ""
 
-    This feature is not available on self-hosted Feniks Chatservers where
+    This feature is not available on self-hosted Feniks Chat servers where
     the [incoming email gateway][email-gateway] has not been
     configured by a system administrator.
     [email-gateway]: https://zulip.readthedocs.io/en/latest/production/email-gateway.html
