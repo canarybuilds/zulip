@@ -29,7 +29,7 @@ apps, etc.
 
 {start_tabs}
 
-1. Go to feniks chat.com and click **New organization** in the top-right corner.
+1. Go to chat.feniks.global and click **New organization** in the top-right corner.
 
 1. Enter your email and click **Create organization**. After confirming your
    email, you will be taken to the **Create your organization** page.
