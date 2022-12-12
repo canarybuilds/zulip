@@ -1,5 +1,5 @@
 ## Guides
-* [Getting started with Zulip](/help/getting-started-with-zulip)
+* [Getting started with Feniks Chat](/help/getting-started-with-zulip)
 * [Setting up your organization](/help/getting-your-organization-started-with-zulip)
 * [Moderating open organizations](/help/moderating-open-organizations)
 * [Setting up Feniks Chat for a class](/help/setting-up-zulip-for-a-class)
@@ -20,7 +20,7 @@
 * [Keyboard shortcuts](/help/keyboard-shortcuts)
 
 ## Setting up your organization
-* [Trying out Zulip](/help/trying-out-zulip)
+* [Trying out Feniks Chat](/help/trying-out-zulip)
 * [Feniks Chat Cloud or self-hosting?](/help/zulip-cloud-or-self-hosting)
 * [Migrating from other chat tools](/help/migrating-from-other-chat-tools)
 * [Create your organization profile](/help/create-your-organization-profile)

@@ -300,7 +300,7 @@ class HelpTest(ZulipTestCase):
             'Go to <a href="/#settings/display-settings">Display settings</a>', str(result.content)
         )
         # Check that the sidebar was rendered properly.
-        self.assertIn("Getting started with Zulip", str(result.content))
+        self.assertIn("Getting started with Feniks Chat", str(result.content))
 
         with self.settings(ROOT_DOMAIN_LANDING_PAGE=True):
             result = self.client_get("/help/change-the-time-format", subdomain="")
