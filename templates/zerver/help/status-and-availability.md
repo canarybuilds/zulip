@@ -77,7 +77,7 @@ name in the left or right sidebar.
 Feniks Chat supports the privacy option of never updating the availability
 information for your account. The result is that you will always
 appear to other users as **Offline**, regardless of your activity in
-Zulip.
+Feniks Chat.
 
 With this setting, your "Last active" time displayed to other users in
 the UI will be frozen as the approximate time you enabled this setting.
