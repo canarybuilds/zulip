@@ -1,6 +1,6 @@
 # Desktop notifications
 
-Zulip offers visual and audible desktop notifications. You can
+Feniks Chat offers visual and audible desktop notifications. You can
 customize whether [stream messages](/help/stream-notifications),
 [private messages](/help/pm-mention-alert-notifications) and
 [mentions](/help/pm-mention-alert-notifications#wildcard-mentions)
@@ -8,7 +8,7 @@ trigger desktop notifications.
 
 ## Notification sound
 
-You can select the sound Zulip uses for audible desktop notifications. Choosing
+You can select the sound Feniks Chat uses for audible desktop notifications. Choosing
 **None** disables all audible desktop notifications.
 
 ### Change notification sound
@@ -27,7 +27,7 @@ You can select the sound Zulip uses for audible desktop notifications. Choosing
 
 ## Unread count badge
 
-By default, Zulip displays how many unmuted unread messages you have
+By default, Feniks Chat displays how many unmuted unread messages you have
 in the organization on the [desktop app](https://zulip.com/apps/)
 sidebar and on the browser tab icon. You can configure which types of
 messages are included in the count. Choosing **None** disables unread
@@ -50,9 +50,9 @@ First, make sure you have enabled
 [desktop notifications for PMs](/help/pm-mention-alert-notifications) or for the
 [stream](/help/stream-notifications) you are testing with.
 
-Desktop notifications are triggered when a message arrives, and Zulip is not
-in focus or the message is offscreen. You must have Zulip open in a browser
-tab or in the Zulip desktop app to receive desktop notifications.
+Desktop notifications are triggered when a message arrives, and Feniks Chat is not
+in focus or the message is offscreen. You must have Feniks Chat open in a browser
+tab or in the Feniks Chat desktop app to receive desktop notifications.
 
 **Visual desktop notifications** appear in the corner of your main monitor.
 **Audible desktop notifications** make a sound.
@@ -80,13 +80,13 @@ Alternate instructions:
    Click on **Content settings** (partway down the page), and select
    **Notifications**.
 
-3. If the Zulip URL for your organization is listed under **Blocked**,
+3. If the Feniks Chat URL for your organization is listed under **Blocked**,
    select the menu icon (<i class="fa fa-ellipsis-v"></i>) to its right, and
    click **Remove**.
 
 4. Next to **Allow**, click **Add**.
 
-5. Paste the Zulip URL for your organization into the site field, and click
+5. Paste the Feniks Chat URL for your organization into the site field, and click
     **Add**.
 
 {tab|firefox}
@@ -96,7 +96,7 @@ Alternate instructions:
 2. On the left, select **Privacy & Security**. Scroll to the **Permissions**
    section and select the **Settings** button next to **Notifications**.
 
-3. Find the URL for your Zulip organization, and adjust the **Status**
+3. Find the URL for your Feniks Chat organization, and adjust the **Status**
    selector to **Allow**.
 
 {tab|desktop-app}
@@ -108,7 +108,7 @@ Alternate instructions:
 
 2. Select **Zulip** from the list of apps.
 
-3. Configure the notification style that you would like Zulip to use.
+3. Configure the notification style that you would like Feniks Chat to use.
 
 **macOS**
 
@@ -116,7 +116,7 @@ Alternate instructions:
 
 2. Select **Zulip** from the list of apps.
 
-3. Configure the notification style that you would like Zulip to use.
+3. Configure the notification style that you would like Feniks Chat to use.
 
 {end_tabs}
 
