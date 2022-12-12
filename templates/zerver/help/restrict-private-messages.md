@@ -25,7 +25,7 @@ administrators can configure who is allowed to use private messages.
 ### Notes on restricting private messages
 
 * Disabling private messages will cause sending a private message to
-throw an error; the Zulip UI will appear to still allow private
+throw an error; the Feniks Chat UI will appear to still allow private
 messages. We expect to make some UI adjustments when private messages
 are disabled during the beta period.
 

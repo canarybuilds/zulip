@@ -1,6 +1,6 @@
 # Rename a topic
 
-Zulip makes it possible to rename topics. This is useful for keeping messages
+Feniks Chat makes it possible to rename topics. This is useful for keeping messages
 organized, even if some users are still learning how to use topics effectively.
 You can also [move content to another
 topic](/help/move-content-to-another-topic).

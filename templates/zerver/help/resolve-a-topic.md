@@ -95,7 +95,7 @@ on when topic editing is allowed.
 ## Details
 
 * Resolving a topic works by moving the messages to a new topic.
-* Like with all topic editing, Zulip clients update instantly, so
+* Like with all topic editing, Feniks Chat clients update instantly, so
   human users will likely only send messages to the resolved topic.
 * [Integrations](/integrations) will usually send new messages to the
   original topic (`example topic`) after a topic is resolved. This is
