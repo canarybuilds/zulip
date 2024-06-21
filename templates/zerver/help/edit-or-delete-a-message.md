@@ -44,7 +44,7 @@ icon instead. Clicking the file icon will allow you to view the
 Editing a message to delete its content will cause the message to be
 displayed as **(deleted)**.  The original sender and timestamp of the
 message will still be displayed, and the original content of the
-message is still accessible via Zulip's [edit
+message is still accessible via Feniks Chat's [edit
 history](/help/view-a-messages-edit-history) feature.  This can be the
 least confusing option for other users.
 
@@ -90,7 +90,7 @@ permissions to delete that message.
   deletions, messages deleted directly or via a [message retention
   policy](/help/message-retention-policy) are archived for 30 days in a
   format that can be restored by a server administrator.  After that
-  time, they are permanently and irrecoverably deleted from the Zulip
+  time, they are permanently and irrecoverably deleted from the Feniks Chat
   server.  Server administrators can adjust the archival time using
   the `ARCHIVED_DATA_VACUUMING_DELAY_DAYS` setting.
 

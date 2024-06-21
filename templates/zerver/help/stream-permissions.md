@@ -1,7 +1,7 @@
 # Stream privacy settings
 
 Streams are similar to chat rooms, IRC channels, or email lists in that they
-determine who receives a message. Zulip supports a few types of streams:
+determine who receives a message. Feniks Chat supports a few types of streams:
 
 * **Public** (**#**): Members can join and view the complete message history.
   Public streams are visible to guest users only if they are
@@ -17,7 +17,7 @@ determine who receives a message. Zulip supports a few types of streams:
     can only see messages sent after they join.
 
 * [**Web-public**](/help/public-access-option) (<i class="zulip-icon
-  zulip-icon-globe"></i>): Members can join (guests must be invited by a
+  feniks-chat-icon-globe"></i>): Members can join (guests must be invited by a
   subscriber). Anyone on the Internet can view complete message history without
   creating an account.
 

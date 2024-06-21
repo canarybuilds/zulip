@@ -1,10 +1,10 @@
 # Marking messages as read
 
-Zulip automatically keeps track of which messages you have and haven't read.
+Feniks Chat automatically keeps track of which messages you have and haven't read.
 Unread messages have a line along the left side, which fades when the message
 gets marked as read.
 
-Zulip offers tools to manually mark one or more messages as read, and you can
+Feniks Chat offers tools to manually mark one or more messages as read, and you can
 configure whether messages are marked as read automatically when you scroll.
 
 ## Configure whether messages are automatically marked as read
@@ -46,7 +46,7 @@ stream or topic as read**.
 
 1. Hover over a stream, topic, or **All messages** in the left sidebar.
 
-1. Click the ellipsis (<i class="zulip-icon zulip-icon-ellipsis-v-solid"></i>)
+1. Click the ellipsis (<i class="zulip-icon feniks-chat-icon-ellipsis-v-solid"></i>)
    to the right.
 
 1. Click **Mark all messages as read**.

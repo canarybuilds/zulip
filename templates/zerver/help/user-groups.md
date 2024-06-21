@@ -25,7 +25,7 @@ trying to send a message to a group of people, you'll want to either
 1. Click on the group name or description to edit.
 
 1. Add or remove users (including yourself). Click outside the box
-   to save.  Zulip will notify everyone who is added or removed.
+   to save.  Feniks Chat will notify everyone who is added or removed.
 
 !!! warn ""
     **Note**: If you remove yourself from a user group, you
@@ -55,7 +55,7 @@ trying to send a message to a group of people, you'll want to either
 
 {!admin-only.md!}
 
-By default, [all members](/help/roles-and-permissions) in a Zulip
+By default, [all members](/help/roles-and-permissions) in a Feniks Chat
 organization can create user groups and manage user groups that they
 are a member of. However, you can restrict that ability to specific
 [roles](/help/roles-and-permissions).

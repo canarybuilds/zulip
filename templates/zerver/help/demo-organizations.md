@@ -18,10 +18,10 @@ ways:
   organization if you'd prefer to keep its history.
 * You do not need to choose a URL when creating a demo organization;
   one will be generated automatically for you.
-* A demo organization cannot be directly upgraded to a paid Zulip
+* A demo organization cannot be directly upgraded to a paid Feniks Chat
   Cloud plan without first converting to a regular organization.
 
-Other than those limitations, they work exactly like a normal Zulip
+Other than those limitations, they work exactly like a normal Feniks Chat
 organization; you can invite additional users, connect the mobile
 apps, etc.
 
@@ -29,7 +29,7 @@ apps, etc.
 
 {start_tabs}
 
-1. Go to zulip.com and click **New organization** in the top-right corner.
+1. Go to chat.feniks.global and click **New organization** in the top-right corner.
 
 1. Enter your email and click **Create organization**. After confirming your
    email, you will be taken to the **Create your organization** page.

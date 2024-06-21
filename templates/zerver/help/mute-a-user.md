@@ -31,7 +31,7 @@ have the following effects:
   private message or [mentioning a user](/help/mention-a-user-or-group).
 
 * Muted users are excluded from [read receipts](/help/read-receipts)
-  for all messages. Zulip never shares whether or not you have read
+  for all messages. Feniks Chat never shares whether or not you have read
   a message with a user you've muted.
 
 * Recent topics and other features that display avatars will show a
@@ -42,7 +42,7 @@ have the following effects:
 
 !!! tip ""
 
-    Muting someone does not affect their Zulip experience in any way.
+    Muting someone does not affect their Feniks Chat experience in any way.
 
 
 [view-emoji-reactions]: /help/emoji-reactions#see-who-reacted-to-a-message
@@ -65,7 +65,7 @@ have the following effects:
 
 1. Hover over a user's name in the right sidebar.
 
-1. Click on the ellipsis (<i class="zulip-icon zulip-icon-ellipsis-v-solid"></i>) to
+1. Click on the ellipsis (<i class="zulip-icon feniks-chat-icon-ellipsis-v-solid"></i>) to
   the right of their name.
 
 1. Click **Mute this user**.

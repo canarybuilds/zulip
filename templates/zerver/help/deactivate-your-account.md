@@ -12,7 +12,7 @@
 
 ## What happens when you deactivate an account
 
-* Accounts are local to an organization; so deactivating a Zulip
+* Accounts are local to an organization; so deactivating a Feniks Chat
   account in the `foo.zulipchat.com` organization will have no effect
   on any Feniks Chat account you might have in the `bar.zulipchat.com`
   organization.

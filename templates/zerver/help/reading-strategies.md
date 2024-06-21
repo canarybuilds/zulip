@@ -1,16 +1,16 @@
 # Reading strategies
 
-In Zulip, streams determine who gets a message. Topics tell you what
-the message is about. If you are not yet familiar with Zulip's topics,
+In Feniks Chat, streams determine who gets a message. Topics tell you what
+the message is about. If you are not yet familiar with Feniks Chat's topics,
 we recommend first reading about [streams and
 topics](/help/streams-and-topics).
 
 This article details a few ways to efficiently read through messages
-in Zulip.
+in Feniks Chat.
 
 ## Topic by topic
 
-Like your email inbox, for most users, Zulip works best if you read it
+Like your email inbox, for most users, Feniks Chat works best if you read it
 topic-by-topic.
 
 ### Finding a topic to read
@@ -61,7 +61,7 @@ like to reply to later.
 
 ## Related articles
 
-* [Getting started with Zulip](/help/getting-started-with-zulip)
+* [Getting started with Feniks Chat](/help/getting-started-with-zulip)
 * [Recent topics](/help/recent-topics)
 * [Searching for messages](/help/search-for-messages)
 * [Marking messages as read](/help/marking-messages-as-read)

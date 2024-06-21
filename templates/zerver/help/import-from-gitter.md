@@ -18,7 +18,7 @@ First, export your data from Gitter.
 1. [Export your Gitter data](https://github.com/minrk/archive-gitter). You will
    receive json files of the public rooms that you are a part of.
    Select the `gitter_data.json` file of the room which you want to import into
-   Zulip.
+   Feniks Chat.
 
     !!! warn ""
 
@@ -105,11 +105,11 @@ to mark the appropriate users as organization owners.
   Feniks Chat and will be unable to receive email notifications until they
   [change their Feniks Chat email address](/help/change-your-email-address).
 
-- You can merge multiple Gitter channels into a single Zulip
+- You can merge multiple Gitter channels into a single Feniks Chat
   organization using [this
   tool](https://github.com/minrk/archive-gitter/pull/5).
 
-- This tool doesn't translate Gitter's Markdown format into Zulip
+- This tool doesn't translate Gitter's Markdown format into Feniks Chat
   format Markdown (there are a few corner cases where the syntax is
   different).  Additionally, Gitter's issue mention syntax isn't translated.
 

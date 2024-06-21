@@ -58,7 +58,7 @@ tab or in the Feniks Chat desktop app to receive desktop notifications.
 **Audible desktop notifications** make a sound.
 
 The most common issue is that your browser or system settings are blocking
-notifications from Zulip.
+notifications from Feniks Chat.
 
 ### Check platform settings
 

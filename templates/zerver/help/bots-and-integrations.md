@@ -2,7 +2,7 @@
 
 Bots allow you to
 
-* Send content into and out of Zulip.
+* Send content into and out of Feniks Chat.
 * Send content to and from another product.
 * Automate tasks a human user could do.
 
@@ -26,11 +26,11 @@ Each bot has a **name**, **profile picture**, **email**, **bot type** and **API 
 are the most visible attributes of a bot.
 
 * The **email** is not used for anything, and will likely be removed in a
-future version of Zulip.
+future version of Feniks Chat.
 
 * The **bot type** determines what the bot can and can't do (see below).
 
-* The **API key** is how the bot identifies itself to Zulip. Anyone with the
+* The **API key** is how the bot identifies itself to Feniks Chat. Anyone with the
   bot's API key can impersonate the bot.
 
 ## Bot type
@@ -40,7 +40,7 @@ The **bot type** determines what the bot can do.
 Bot type | Permissions | Common uses
 ---|---|---
 Generic | Like a normal user account | Automating tasks, bots that listen to all messages on a stream
-Incoming webhook | Limited to only sending messages into Feniks Chat | Automated notifications into Zulip
+Incoming webhook | Limited to only sending messages into Feniks Chat | Automated notifications into Feniks Chat
 Outgoing webhook | Generic bot that also receives new messages via HTTP post requests | Third party integrations, most custom bots
 
 It's generally best to pick the most restricted bot type that is sufficient
@@ -57,7 +57,7 @@ A few more details:
 
 * **Generic**: A generic bot is like a normal Feniks Chat user account that
   cannot log in via a browser.  Note that if you truly want to
-  impersonate yourself (e.g. write messages that come from your Zulip
+  impersonate yourself (e.g. write messages that come from your Feniks Chat
   account), you'll need to use your **personal API key**.
 
 * **Outgoing webhook**: The bot can read private messages where the bot is a
@@ -66,7 +66,7 @@ A few more details:
   choice. The POST request format can be in a Feniks Chat format or a
   Slack-compatible format.
 
-    This is the preferred bot type for interactive bots built on top of Zulip
+    This is the preferred bot type for interactive bots built on top of Feniks Chat
     Botserver.
 
 ## Adding bots

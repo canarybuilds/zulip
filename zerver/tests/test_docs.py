@@ -138,7 +138,7 @@ class DocPageTest(ZulipTestCase):
         self.assertEqual(result.status_code, 404)
 
         # Test some API doc endpoints for specific content and metadata.
-        self._test("/api/", "The Zulip API")
+        self._test("/api/", "The Feniks Chat API")
         self._test("/api/api-keys", "be careful with it")
         self._test("/api/installation-instructions", "No download required!")
         self._test("/api/send-message", "steal away your hearts")
@@ -179,7 +179,7 @@ class DocPageTest(ZulipTestCase):
         self._test("/hello/", "Chat for distributed teams", landing_missing_strings=["Log in"])
         self._test("/attribution/", "Website attributions")
         self._test("/communities/", "Open communities directory")
-        self._test("/development-community/", "Zulip development community")
+        self._test("/development-community/", "Feniks Chat development community")
         self._test("/features/", "Beautiful messaging")
         self._test("/jobs/", "Work with us")
         self._test("/self-hosting/", "Self-host Zulip")
@@ -192,7 +192,7 @@ class DocPageTest(ZulipTestCase):
         self._test("/for/education/", "education pricing")
         self._test("/for/research/", "for research")
         self._test("/for/business/", "Communication efficiency represents")
-        self._test("/for/communities/", "Zulip for communities")
+        self._test("/for/communities/", "Feniks Chat for communities")
         # case-studies
         self._test("/case-studies/tum/", "Technical University of Munich")
         self._test("/case-studies/ucsd/", "UCSD")
@@ -203,7 +203,7 @@ class DocPageTest(ZulipTestCase):
         self._test("/case-studies/asciidoctor/", "Case study: Asciidoctor")
 
     def test_open_organizations_endpoint(self) -> None:
-        zulip_dev_info = ["Zulip Dev", "great for testing!"]
+        zulip_dev_info = ["Feniks Chat Dev", "great for testing!"]
 
         result = self.client_get("/communities/")
         self.assert_not_in_success_response(zulip_dev_info, result)
@@ -236,12 +236,12 @@ class DocPageTest(ZulipTestCase):
         self.assertEqual(result.status_code, 404)
 
     def test_integration_pages_open_graph_metadata(self) -> None:
-        og_description = '<meta property="og:description" content="Zulip comes with over'
+        og_description = '<meta property="og:description" content="Feniks Chat comes with over'
 
         # Test a particular integration page
         url = "/integrations/doc/github"
-        title = '<meta property="og:title" content="GitHub | Zulip integrations" />'
-        description = '<meta property="og:description" content="Zulip comes with over'
+        title = '<meta property="og:title" content="GitHub | Feniks Chat integrations" />'
+        description = '<meta property="og:description" content="Feniks Chat comes with over'
         self._test(url, title, doc_html_str=True)
         self._test(url, description, doc_html_str=True)
 
@@ -249,18 +249,18 @@ class DocPageTest(ZulipTestCase):
         for category in CATEGORIES.keys():
             url = f"/integrations/{category}"
             if category in META_CATEGORY.keys():
-                title = f"<title>{CATEGORIES[category]} | Zulip integrations</title>"
-                og_title = f'<meta property="og:title" content="{CATEGORIES[category]} | Zulip integrations" />'
+                title = f"<title>{CATEGORIES[category]} | Feniks Chat integrations</title>"
+                og_title = f'<meta property="og:title" content="{CATEGORIES[category]} | Feniks Chat integrations" />'
             else:
-                title = f"<title>{CATEGORIES[category]} tools | Zulip integrations</title>"
-                og_title = f'<meta property="og:title" content="{CATEGORIES[category]} tools | Zulip integrations" />'
+                title = f"<title>{CATEGORIES[category]} tools | Feniks Chat integrations</title>"
+                og_title = f'<meta property="og:title" content="{CATEGORIES[category]} tools | Feniks Chat integrations" />'
             self._test(url, title)
             self._test(url, og_title, doc_html_str=True)
             self._test(url, og_description, doc_html_str=True)
 
         # Test integrations index page
         url = "/integrations/"
-        og_title = '<meta property="og:title" content="Zulip integrations" />'
+        og_title = '<meta property="og:title" content="Feniks Chat integrations" />'
         self._test(url, og_title, doc_html_str=True)
         self._test(url, og_description, doc_html_str=True)
 
@@ -300,7 +300,7 @@ class HelpTest(ZulipTestCase):
             'Go to <a href="/#settings/display-settings">Display settings</a>', str(result.content)
         )
         # Check that the sidebar was rendered properly.
-        self.assertIn("Getting started with Zulip", str(result.content))
+        self.assertIn("Getting started with Feniks Chat", str(result.content))
 
         with self.settings(ROOT_DOMAIN_LANDING_PAGE=True):
             result = self.client_get("/help/change-the-time-format", subdomain="")
@@ -365,20 +365,20 @@ class IntegrationTest(ZulipTestCase):
         context: Dict[str, Any] = {}
         with self.settings(ROOT_DOMAIN_LANDING_PAGE=True):
             add_api_uri_context(context, HostRequestMock())
-        self.assertEqual(context["settings_html"], "Zulip settings page")
+        self.assertEqual(context["settings_html"], "Feniks Chat settings page")
         self.assertEqual(context["subscriptions_html"], "streams page")
 
         context = {}
         with self.settings(ROOT_DOMAIN_LANDING_PAGE=True):
             add_api_uri_context(context, HostRequestMock(host="mysubdomain.testserver"))
-        self.assertEqual(context["settings_html"], '<a href="/#settings">Zulip settings page</a>')
+        self.assertEqual(context["settings_html"], '<a href="/#settings">Feniks Chat settings page</a>')
         self.assertEqual(
             context["subscriptions_html"], '<a target="_blank" href="/#streams">streams page</a>'
         )
 
         context = {}
         add_api_uri_context(context, HostRequestMock())
-        self.assertEqual(context["settings_html"], '<a href="/#settings">Zulip settings page</a>')
+        self.assertEqual(context["settings_html"], '<a href="/#settings">Feniks Chat settings page</a>')
         self.assertEqual(
             context["subscriptions_html"], '<a target="_blank" href="/#streams">streams page</a>'
         )

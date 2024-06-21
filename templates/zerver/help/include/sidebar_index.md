@@ -1,10 +1,10 @@
 ## Guides
-* [Getting started with Zulip](/help/getting-started-with-zulip)
+* [Getting started with Feniks Chat](/help/getting-started-with-zulip)
 * [Setting up your organization](/help/getting-your-organization-started-with-zulip)
 * [Moderating open organizations](/help/moderating-open-organizations)
-* [Setting up Zulip for a class](/help/setting-up-zulip-for-a-class)
-* [Using Zulip for a class](/help/using-zulip-for-a-class)
-* [Using Zulip via email](/help/using-zulip-via-email)
+* [Setting up Feniks Chat for a class](/help/setting-up-zulip-for-a-class)
+* [Using Feniks Chat for a class](/help/using-zulip-for-a-class)
+* [Using Feniks Chat via email](/help/using-zulip-via-email)
 
 ## Getting started
 * [Joining an organization](/help/join-a-zulip-organization)
@@ -20,8 +20,8 @@
 * [Keyboard shortcuts](/help/keyboard-shortcuts)
 
 ## Setting up your organization
-* [Trying out Zulip](/help/trying-out-zulip)
-* [Zulip Cloud or self-hosting?](/help/zulip-cloud-or-self-hosting)
+* [Trying out Feniks Chat](/help/trying-out-zulip)
+* [Feniks Chat Cloud or self-hosting?](/help/zulip-cloud-or-self-hosting)
 * [Migrating from other chat tools](/help/migrating-from-other-chat-tools)
 * [Create your organization profile](/help/create-your-organization-profile)
 * [Customize organization settings](/help/customize-organization-settings)
@@ -124,11 +124,11 @@
 
 ## Apps
 * [Desktop installation guides](/help/desktop-app-install-guide)
-* [Zulip in a Terminal](/help/zulip-in-a-terminal)
+* [Feniks Chat in a Terminal](/help/zulip-in-a-terminal)
 * [Connect through a proxy](/help/connect-through-a-proxy)
 * [Use a custom certificate](/help/custom-certificates)
 
-# Zulip administration
+# Feniks Chat administration
 
 ## Organization basics
 * [Review your organization's settings](/help/review-your-organization-settings)
@@ -205,6 +205,6 @@
 * [View all bots in your organization](/help/view-all-bots-in-your-organization)
 
 ## Support
-* [View Zulip version](/help/view-zulip-version)
-* [Zulip Cloud billing](/help/zulip-cloud-billing)
+* [View Feniks Chat version](/help/view-zulip-version)
+* [Feniks Chat Cloud billing](/help/zulip-cloud-billing)
 * [Contact support](/help/contact-support)
